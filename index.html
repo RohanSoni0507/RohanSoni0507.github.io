@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Document Management System</h1>
+
+    <!-- File Upload Form -->
+    <form id="file-upload-form" action="/api/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" id="file-input" name="document" accept=".pdf, .doc, .docx">
+        <input type="submit" value="Upload Document">
+    </form>
+
+    <!-- Document Listing -->
+    <div id="document-list">
+        <!-- Sample document entry -->
+        <div class="document-entry">
+            <span class="document-name">Document 1.pdf</span>
+            <span class="document-tags">Tags: Tag1, Tag2, Tag3</span>
+        </div>
+        <!-- Sample document entry -->
+        <div class="document-entry">
+            <span class="document-name">Document 2.docx</span>
+            <span class="document-tags">Tags: Tag4, Tag5</span>
+        </div>
+        <!-- Add more document entries as needed -->
+    </div>
+
+    <!-- Tagging Section -->
+    <div id="tagging-section">
+        <input type="text" id="tag-input" placeholder="Enter tags (comma-separated)">
+        <button id="tag-button">Tag Document</button>
+    </div>
+
+    <!-- Search Section -->
+    <div id="search-section">
+        <input type="text" id="search-input" placeholder="Search by tags">
+        <button id="search-button">Search</button>
+    </div>
+
+    <!-- JavaScript to handle interactions -->
+    <script src="script.js"></script>
+</body>
+
+</html>

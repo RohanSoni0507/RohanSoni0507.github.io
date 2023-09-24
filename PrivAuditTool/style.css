@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#audit-form {
+    margin-top: 20px;
+}
+
+#website-url {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#audit-result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: left;
+}

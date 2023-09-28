@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333333;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #0000ff;
+    text-align: center;
+}
+
+#toggle-button {
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+button {
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.delete-button {
+    background-color: #ff6347;
+    text-align: center;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #001aff;
+}

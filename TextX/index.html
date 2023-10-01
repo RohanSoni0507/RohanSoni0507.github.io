@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Text Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="editor">
+    <h1>Welcome to Text Editor</h1>
+    <textarea id="editor"></textarea>
+  </div>
+  <div class="controls">
+    <input type="file" id="fileInput" accept=".txt">
+    <button id="createFileButton">New File</button>
+    <button id="saveFileButton">Save File</button>
+    <button id="copyButton">Copy</button>
+    <button id="cutButton">Cut</button>
+    <button id="pasteButton">Paste</button>
+    <button id="undoButton">Undo</button>
+    <button id="redoButton">Redo</button>
+    <input type="text" id="searchInput" placeholder="Search">
+    <input type="text" id="replaceInput" placeholder="Replace">
+    <button id="searchReplaceButton">Search & Replace</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

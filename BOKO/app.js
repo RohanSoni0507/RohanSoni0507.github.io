@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.post('/add_book', upload.single('pdfFile'), (req, res) => {
+app.post('add_book', upload.single('pdfFile'), (req, res) => {
   const { bookName, pages } = req.body;
   const pdfFile = req.file;
   

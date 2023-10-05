@@ -64,7 +64,7 @@ app.post('add_book', upload.single('pdfFile'), (req, res) => {
   res.redirect('/');
 });
 
-app.get('/get_book_count', (req, res) => {
+app.get('get_book_count', (req, res) => {
   res.json({ bookCount: books.length });
 });
 

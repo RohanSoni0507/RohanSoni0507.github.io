@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Management</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js" async></script>
     <style>
         .dark-mode .container h1 {
             color: orange;
@@ -54,7 +55,7 @@
         <ul id="sortedBooksList">
         </ul>
     </div>
-    <script src="./app.js"></script>
+    
     <script>
         fetch('/get_all_books_json')
             .then(response => response.json())

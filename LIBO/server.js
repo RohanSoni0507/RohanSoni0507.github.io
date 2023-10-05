@@ -42,6 +42,27 @@ const dummyBooks = [
 
 books = [...dummyBooks];
 
+// Quick Sort Function
+function quickSort(arr) {
+  if (arr.length <= 1) {
+    return arr;
+  }
+
+  const pivot = arr[0];
+  const left = [];
+  const right = [];
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i].bookName < pivot.bookName) {
+      left.push(arr[i]);
+    } else {
+      right.push(arr[i]);
+    }
+  }
+
+  return [...quickSort(left), pivot, ...quickSort(right)];
+}
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
@@ -65,28 +86,16 @@ app.post('/add_book', upload.single('pdfFile'), (req, res) => {
 });
 
 app.get('/get_book_count', (req, res) => {
-  res.json({ bookCount: books.length });
+  res.send(books.length.toString());
 });
 
 app.get('/get_all_books', (req, res) => {
-  const bookRows = books.map(book => `
-    <tr>
-      <td>${book.bookName}</td>
-      <td>${book.pages}</td>
-      <td><a href="/books/${book.pdfFileName}" download>Download</a></td>
-    </tr>
-  `).join('');
-
-  res.send(bookRows);
+  res.send(books);
 });
 
 app.get('/get_sorted_books', (req, res) => {
-  const sortedBooks = [...books].sort((a, b) => a.bookName.localeCompare(b.bookName));
-  res.json(sortedBooks);
-});
-
-app.get('/get_all_books_json', (req, res) => {
-  res.json(books);
+  const sortedBooks = quickSort([...books]);
+  res.send(sortedBooks);
 });
 
 app.listen(port, () => {

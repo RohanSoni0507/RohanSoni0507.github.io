@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- Add this switch for dark mode -->
+<div class="dark-mode-switch">
+    <label class="switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider round"></span>
+    </label>
+    <span class="dark-mode-label">Dark Mode</span>
+</div>
+
+    <div class="container">
+        <h1>WELCOME TO E-LIBRARY</h1>
+        <h2>Book Management</h2>
+        <!-- Add Book Form -->
+        <h2>Add Book</h2>
+        <form action="/add_book" method="POST" enctype="multipart/form-data">
+            <label for="bookName">Book Name:</label>
+            <input type="text" name="bookName" required>
+            <label for="pages">Number of Pages:</label>
+            <input type="number" name="pages" required>
+            <label for="pdfFile">Upload PDF File:</label>
+            <input type="file" name="pdfFile" accept=".pdf" required>
+            <button type="submit">Add Book</button>
+        </form>
+
+        <h2>Book Count</h2>
+        <p>Total Books in the Library: <span id="bookCount"></span></p>
+
+        <h2>All Books</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book Name</th>
+                    <th>Number of Pages</th>
+                    <th>Download PDF</th>
+                </tr>
+            </thead>
+            <tbody id="bookTable">
+                <!-- Book data will be added dynamically here -->
+            </tbody>
+        </table>
+
+        <!-- Sort Books by Name -->
+        <h2>Books Sorted by Name</h2>
+        <ul id="sortedBooksList">
+            <!-- Sorted book list will be added dynamically here -->
+        </ul>
+    </div>
+    <script src="/app.js"></script>
+
+    <!-- Script to fetch and display book data -->
+    <script>
+        fetch('/get_all_books_json')
+            .then(response => response.json())
+            .then(data => {
+                const bookTable = document.getElementById('bookTable');
+                const bookRows = data.map(book => `
+                    <tr>
+                        <td>${book.bookName}</td>
+                        <td>${book.pages}</td>
+                        <td><a href="/books/${book.pdfFileName}" download>Download</a></td>
+                    </tr>
+                `).join('');
+                bookTable.innerHTML = bookRows;
+            });
+
+        // Fetch and display book count
+        fetch('/get_book_count')
+            .then(response => response.json())
+            .then(data => {
+                const bookCountSpan = document.getElementById('bookCount');
+                bookCountSpan.textContent = data.bookCount;
+            });
+    </script>
+
+    <!-- Script to fetch and display sorted books by name -->
+    <script>
+        // Function to generate a download link for a book
+        function generateDownloadLink(pdfFileName) {
+            return `<a href="/books/${pdfFileName}" download>Download</a>`;
+        }
+
+        fetch('/get_sorted_books')
+            .then(response => response.json())
+            .then(sortedBooks => {
+                const sortedBooksList = document.getElementById('sortedBooksList');
+                const sortedBooksHTML = sortedBooks.map(book => `
+                    <li>
+                        <strong>Book Name:</strong> ${book.bookName}<br>
+                        <strong>Number of Pages:</strong> ${book.pages}<br>
+                        <strong>Download PDF:</strong> ${generateDownloadLink(book.pdfFileName)}
+                    </li>
+                `).join('');
+                sortedBooksList.innerHTML = sortedBooksHTML;
+            });
+    </script>
+
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        darkModeToggle.addEventListener('change', () => {
+            if (darkModeToggle.checked) {
+                body.classList.add('dark-mode');
+            } else {
+                body.classList.remove('dark-mode');
+            }
+        });
+    </script>
+</body>
+</html>

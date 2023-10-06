@@ -17,12 +17,12 @@
             <input type="checkbox" id="darkModeToggle">
             <span class="slider round"></span>
         </label>
-        <span class="dark-mode-label">Dark Mode</span>
+        <span class="dark-mode-label"></span>
     </div>
 
     <div class="container">
         <h1>WELCOME TO E-LIBRARY</h1>
-        <h2>Book Management</h2>
+        <h2>3rd Semester</h2>
         <h2>Add Book</h2>
         <form id="addBookForm" enctype="multipart/form-data">
             <label for="bookName">Book Name:</label>
@@ -31,7 +31,9 @@
             <input type="number" id="pages" name="pages" required>
             <label>Upload PDF File:</label>
             <input type="file" id="pdfFile" accept=".pdf" required>
-            <button type="submit">Add Book</button>            
+            <button type="submit">
+                <i class="fas fa-plus"></i> Add Book
+            </button>                        
         </form>
 
         <h2>Book Count</h2>
@@ -53,6 +55,10 @@
         <h2>Books Sorted by Name</h2>
         <ul id="sortedBooksList">
         </ul>
+        <div class="other-web-app">
+            <p>Boost productivity with our Productivity App! Manage tasks, to-dos, reminders, goals, and enjoy dark mode. Stay organized and efficient effortlessly.</p>
+            <a href="https://rohansoni0507.github.io/ProductivityPro/" target="_blank">Visit Productivity WebApp</a>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

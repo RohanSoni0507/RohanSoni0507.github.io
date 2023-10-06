@@ -1,28 +1,63 @@
 const dummyBooks = [
     {
-        bookName: "The Great Gatsby",
-        pages: 180,
-        pdfFileName: "great_gatsby.pdf"
+        bookName: "Computer Organisation and Architecture - Unit 4",
+        pages: 99,
+        pdfFileName: "coaunit4.pdf"
     },
     {
-        bookName: "To Kill a Mockingbird",
-        pages: 281,
-        pdfFileName: "to_kill_a_mockingbird.pdf"
+        bookName: "Data Structures and Algorithms - Unit 3",
+        pages: 138,
+        pdfFileName: "dsaunit3.pdf"
     },
     {
-        bookName: "1984",
-        pages: 328,
-        pdfFileName: "1984.pdf"
+        bookName: "Advanced programming practice - Unit 3",
+        pages: 112,
+        pdfFileName: "appunit3.pdf"
     },
     {
-        bookName: "Pride and Prejudice",
-        pages: 279,
-        pdfFileName: "pride_and_prejudice.pdf"
+        bookName: "Computer Organisation and Architecture - Unit 3",
+        pages: 115,
+        pdfFileName: "coaunit3.pdf"
     },
     {
-        bookName: "The Catcher in the Rye",
+        bookName: "Operating Systems - Unit 2",
         pages: 224,
-        pdfFileName: "catcher_in_the_rye.pdf"
+        pdfFileName: "osunit2.pdf"
+    },
+    {
+        bookName: "Data Structures and Algorithms - Unit 2",
+        pages: 89,
+        pdfFileName: "dsaunit2.pdf"
+    },
+    {
+        bookName: "Advanced programming practice - Unit 2",
+        pages: 232,
+        pdfFileName: "appunit2.pdf"
+    },
+    {
+        bookName: "Computer Organisation and Architecture - Unit 2",
+        pages: 129,
+        pdfFileName: "coaunit2.pdf"
+    },
+    {
+        bookName: "Data Structures and Algorithms - Unit 1",
+        pages: 83,
+        pdfFileName: "dsaunit1.pdf"
+    },
+    {
+        bookName: "Advanced programming practice - Unit 1",
+        pages: 79,
+        pdfFileName: "appunit1.pdf"
+    },
+    {
+        bookName: "Operating Systems - Unit 1",
+        pages: 224,
+        pdfFileName: "osunit1.pdf"
+    },
+    {
+        bookName: "Computer Organisation and Architecture - Unit 1",
+        pages: 161,
+        pdfFileName: "coaunit1.pdf"
     }
 ];
 

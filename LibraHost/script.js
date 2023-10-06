@@ -21,7 +21,7 @@ const dummyBooks = [
     },
     {
         bookName: "Operating Systems - Unit 2",
-        pages: 224,
+        pages: 163,
         pdfFileName: "osunit2.pdf"
     },
     {
@@ -51,7 +51,7 @@ const dummyBooks = [
     },
     {
         bookName: "Operating Systems - Unit 1",
-        pages: 224,
+        pages: 110,
         pdfFileName: "osunit1.pdf"
     },
     {

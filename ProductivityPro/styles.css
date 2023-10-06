@@ -23,14 +23,19 @@ body {
 }
 
 
-h1,
-h2 {
-    color: #0000ff;
+h1{
+    color: orange;
     text-align: center;
 }
 
+h2{
+    color: #000000;
+    text-align: center;
+}
+
+
 #toggle-button {
-    background-color: #0000ff;
+    background-color: blue;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -60,7 +65,7 @@ input[type="text"] {
 }
 
 button {
-    background-color: #0000ff;
+    background-color: blue;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -133,4 +138,15 @@ body.dark-mode .footer p {
 
 body.dark-mode .footer a {
     color: #55a4ff;
+}
+.dark-mode h2 {
+    color: #bbbfcd;
+}
+
+.dark-mode button {
+    background-color: #7289da;
+}
+
+.dark-mode #toggle-button {
+    background-color: #7289da;
 }

@@ -25,7 +25,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
@@ -39,7 +38,6 @@ h2 {
 table {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
 
 form {
     margin-top: 20px;
@@ -74,7 +72,6 @@ input[type="file"] {
 .fade-in-element {
     animation: fadeIn 1s ease-in-out;
 }
-
 
 button {
     background-color: #007BFF;
@@ -125,12 +122,6 @@ li {
 .icon:hover {
     transform: rotate(45deg);
     transition: transform 0.3s ease-in-out;
-}
-
-
-.dark-mode {
-    background-color: #333;
-    color: white;
 }
 
 .dark-mode-switch {
@@ -193,32 +184,7 @@ input:checked + .slider:before {
     transform: translateX(26px);
 }
 
-.dark-mode-label {
-    margin-left: 10px;
-    font-size: 16px;
-    color: #333;
-}
-
-.dark-mode h1 {
-    color: rgb(255, 0, 195);
-}
-
-.dark-mode h2 {
-    color: rgb(255, 0, 234);
-}
-
-.dark-mode span{
-    color: white;
-}
-
-.dark-mode th{
-    color:red;
-}
-
-.dark-mode strong{
-    color:rgb(212, 255, 0);
-}
-
+/* Bright Mode */
 .other-web-app {
     background-color: #f9f9f9;
     border: 2px solid #ccc;
@@ -234,7 +200,7 @@ input:checked + .slider:before {
 }
 
 .other-web-app p {
-    color: #000000;
+    color: #666;
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -255,6 +221,7 @@ input:checked + .slider:before {
     background-color: #0056b3;
 }
 
+/* Dark Mode */
 .dark-mode .other-web-app {
     background-color: #333;
     border: 2px solid #555;
@@ -265,16 +232,67 @@ input:checked + .slider:before {
 }
 
 .dark-mode .other-web-app p {
-    color: #2fff00;
+    color: #ffffff;
 }
 
 .dark-mode .other-web-app a {
-    background-color: #0044ff;
-    color: #000000;
-    border: 2px solid #0022ff;
+    background-color: #FFD700;
+    color: #ffffff;
+    border: 2px solid #FFD700;
 }
 
 .dark-mode .other-web-app a:hover {
-    background-color: #002fff;
-    color: #000000;
+    background-color: #ffd700;
+    color: #333;
+}
+
+/* Discord-like Dark Mode for other elements except the switch */
+.dark-mode {
+    background-color: #36393f; /* Dark gray background */
+    color: #ffffff; /* White text */
+}
+
+/* Discord-like Dark Mode for headers and titles */
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+    color: #ffffff; /* White text */
+}
+
+/* Discord-like Dark Mode for table headers */
+.dark-mode table th {
+    color: #ffffff; /* White text */
+}
+
+/* Discord-like Dark Mode for other elements */
+.dark-mode a, .dark-mode button, .dark-mode .icon {
+    background-color: #7289da; /* Discord blue */
+    color: #ffffff; /* White text */
+    border: 2px solid #677bc4; /* Border color */
+}
+
+.dark-mode a:hover, .dark-mode button:hover {
+    background-color: #677bc4; /* Slightly darker blue on hover */
+}
+
+/* Discord-like Dark Mode for the other-web-app section */
+.dark-mode .other-web-app {
+    background-color: #40444b; /* Slightly lighter gray background */
+    border: 2px solid #586069; /* Border color */
+}
+
+.dark-mode .other-web-app h3 {
+    color: #ffffff; /* White text */
+}
+
+.dark-mode .other-web-app p {
+    color: #ffffff; /* Light gray text */
+}
+
+.dark-mode .other-web-app a {
+    background-color: #7289da; /* Discord blue */
+    color: #ffffff; /* White text */
+    border: 2px solid #677bc4; /* Border color */
+}
+
+.dark-mode .other-web-app a:hover {
+    background-color: #677bc4; /* Slightly darker blue on hover */
 }

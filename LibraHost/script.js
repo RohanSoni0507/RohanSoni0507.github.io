@@ -1,5 +1,10 @@
 const dummyBooks = [
     {
+        bookName: "Operating Systems Lab - Week 9",
+        pages: 5,
+        pdfFileName: "oslabweek9.pdf"
+    },
+    {
         bookName: "Computer Organisation and Architecture - Unit 4",
         pages: 99,
         pdfFileName: "coaunit4.pdf"

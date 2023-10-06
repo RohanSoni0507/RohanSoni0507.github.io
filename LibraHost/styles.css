@@ -9,7 +9,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    position: relative;
+    position: relative
 }
 
 .header {
@@ -34,9 +34,14 @@ h2 {
     font-size: 18px;
     font-weight: bold;
 }
+p{
+    margin-bottom: 2em;
+}
+
 
 table {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3em;
 }
 
 form {
@@ -80,6 +85,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 2em;
 }
 
 button:hover {

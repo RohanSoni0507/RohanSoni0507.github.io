@@ -61,7 +61,7 @@ const dummyBooks = [
     },
     {
         bookName: "Operating Systems - Handbook",
-        pages: 110,
+        pages: 23,
         pdfFileName: "oshandbook.pdf"
     }
 ];

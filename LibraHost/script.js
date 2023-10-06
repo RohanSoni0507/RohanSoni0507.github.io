@@ -67,7 +67,7 @@ function displayDummyBooks() {
         <tr>
             <td>${book.bookName}</td>
             <td>${book.pages}</td>
-            <td><a href="/books/${book.pdfFileName}" download>Download</a></td>
+            <td><a href="books/${book.pdfFileName}" download>Download</a></td>
         </tr>
     `).join('');
     bookTable.innerHTML = bookRows;
@@ -80,7 +80,7 @@ function fetchBookCount() {
 }
 
 function generateDownloadLink(pdfFileName) {
-    return `<a href="/books/${pdfFileName}" download>Download</a>`;
+    return `<a href="books/${pdfFileName}" download>Download</a>`;
 }
 
 function fetchSortedBooks() {

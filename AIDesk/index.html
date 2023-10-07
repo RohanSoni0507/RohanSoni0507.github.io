@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the heading */
+        .heading {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: orange; /* Default color for the heading */
+        }
+
+        .heading.dark-mode {
+            color: yellow; /* Color for the heading in dark mode */
+        }
+    </style>
+    <title>Voice Chatbot</title>
+</head>
+<body>
+    <h1></h1>
+    <div class="dark-mode-switch">
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+        <span class="dark-mode-label"></span>
+    </div>
+    <div class="heading">Python Powered AI Desktop Assistant</div>
+    <div id="chatbox">
+        <div class="chat-message">
+            <p><strong>Welcome to Voice-Activated Personal Assistant</strong></p>
+            <p>How Can I Help You Today ?</p>
+        </div>
+    </div>
+    <button id="start-listening">Start Listening</button>
+    <button id="stop-listening" disabled>Stop Listening</button>
+    <div class="footer">
+        <p>Explore the World of Language and Communication</p>
+        <p><a href="https://www.example.com" target="_blank">Visit our Website</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Morse Code Translator</title>
+</head>
+<body>
+    <div class="dark-mode-switch">
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+        <span class="dark-mode-label"></span>
+    </div>
+    <div class="heading">Java Powered Morse Code Translator</div>
+    <div class="container">
+        <div class="translator">
+            <div class="input-section">
+                <label for="englishText">Enter Text:</label>
+                <textarea id="englishText" rows="4" placeholder="Enter text to translate..."></textarea>
+            </div>
+            <div class="translate-buttons">
+                <button id="translateToMorse">Translate to Morse</button>
+                <button id="translateToEnglish">Translate to English</button>
+            </div>
+            <div class="output-section">
+                <label for="translation">Translation:</label>
+                <p id="translation"></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Empower Your Voice: Your Personal Assistant, Just a Word Away</p>
+        <p><a href="https://rohansoni0507.github.io/AIDesk/" target="_blank">Visit</a></p>
+    </div>
+</body>
+</html>

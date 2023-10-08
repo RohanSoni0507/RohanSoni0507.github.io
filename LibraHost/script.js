@@ -1,6 +1,6 @@
 const dummyBooks = [
     {
-        bookName: "Advanced programming practice Lab - Week 9",
+        bookName: "Advanced Programming Practice Lab - Week 9",
         pages: 18,
         pdfFileName: "applabweek9.pdf"
     },
@@ -20,7 +20,7 @@ const dummyBooks = [
         pdfFileName: "dsaunit3.pdf"
     },
     {
-        bookName: "Advanced programming practice - Unit 3",
+        bookName: "Advanced Programming Practice - Unit 3",
         pages: 112,
         pdfFileName: "appunit3.pdf"
     },
@@ -40,7 +40,7 @@ const dummyBooks = [
         pdfFileName: "dsaunit2.pdf"
     },
     {
-        bookName: "Advanced programming practice - Unit 2",
+        bookName: "Advanced Programming Practice - Unit 2",
         pages: 232,
         pdfFileName: "appunit2.pdf"
     },
@@ -55,7 +55,7 @@ const dummyBooks = [
         pdfFileName: "dsaunit1.pdf"
     },
     {
-        bookName: "Advanced programming practice - Unit 1",
+        bookName: "Advanced Programming Practice - Unit 1",
         pages: 79,
         pdfFileName: "appunit1.pdf"
     },

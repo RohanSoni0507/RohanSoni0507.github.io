@@ -10,6 +10,11 @@ const dummyBooks = [
         pdfFileName: "boostersolution.pdf"
     },
     {
+        bookName: "ADD ON COURSE IN C - ASSIGNEMNT 3 - STRUCTURE - L2 & S2",
+        pages: 3,
+        pdfFileName: "adonass3.pdf"
+    },
+    {
         bookName: "Advanced Programming Practice Lab - Week 9",
         pages: 18,
         pdfFileName: "applabweek9.pdf"

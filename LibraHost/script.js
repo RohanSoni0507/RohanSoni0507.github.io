@@ -1,5 +1,10 @@
 const dummyBooks = [
     {
+        bookName: "Maths Booster Question Paper - Solution",
+        pages: 18,
+        pdfFileName: "booster.pdf"
+    },
+    {
         bookName: "Advanced Programming Practice Lab - Week 9",
         pages: 18,
         pdfFileName: "applabweek9.pdf"

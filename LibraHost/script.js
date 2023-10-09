@@ -1,8 +1,13 @@
 const dummyBooks = [
     {
+        bookName: "Advanced Programming Practice - Unit 4",
+        pages: 86,
+        pdfFileName: "appunit4.pdf"
+    },
+    {
         bookName: "Maths Booster Question Paper - Solution",
-        pages: 18,
-        pdfFileName: "booster.pdf"
+        pages: 5,
+        pdfFileName: "boostersolution.pdf"
     },
     {
         bookName: "Advanced Programming Practice Lab - Week 9",

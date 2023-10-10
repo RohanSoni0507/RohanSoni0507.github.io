@@ -1,5 +1,15 @@
 const dummyBooks = [
     {
+        bookName: "Advanced Programming Practice Lab - Week 11",
+        pages: 13,
+        pdfFileName: "appweek11.pdf"
+    },
+    {
+        bookName: "Advanced Programming Practice Lab - Week 10",
+        pages: 14,
+        pdfFileName: "appweek10.pdf"
+    },
+    {
         bookName: "Transforms and Boundary Value Problems - Handwritten Notes - Unit 3",
         pages: 30,
         pdfFileName: "mathunit3.pdf"

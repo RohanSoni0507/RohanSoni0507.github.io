@@ -9,6 +9,10 @@ body {
     transition: background-color 0.3s ease;
 }
 
+.heading{
+    margin-top: 1em;
+}
+
 #chatbox {
     width: 400px;
     height: 300px;

@@ -1,5 +1,35 @@
 const dummyBooks = [
     {
+        bookName: "Computer Organization and Design - The Hardware/Software Interface: RISC-V Edition by David A. Patterson and John L. Hennessy",
+        pages: 1665,
+        pdfFileName: "coabook1.pdf"
+    },
+    {
+        bookName: "Computer Organisation and Architecture by Tarun Kumar Ghosh and Anindya Jyoti Pal",
+        pages: 465,
+        pdfFileName: "coabook2.pdf"
+    },
+    {
+        bookName: "Computer Organization and Architecture - Designing for Performance - Tenth Edition by William Stalling",
+        pages: 864,
+        pdfFileName: "coabook3.pdf"
+    },
+    {
+        bookName: "Computer Architecture & Parallel Processing by Kai Hwang & Briggs",
+        pages: 864,
+        pdfFileName: "coabook4.pdf"
+    },
+    {
+        bookName: "Computer architecture and organisation by Hayes , John P. - 1944",
+        pages: 339,
+        pdfFileName: "coabook5.pdf"
+    },
+    {
+        bookName: "Computer Organisation , 5E",
+        pages: 818,
+        pdfFileName: "coabook6.pdf"
+    },
+    {
         bookName: "Advanced Programming Practice Lab - Week 11",
         pages: 13,
         pdfFileName: "appweek11.pdf"

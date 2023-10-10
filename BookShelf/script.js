@@ -5,6 +5,11 @@ const dummyBooks = [
         pdfFileName: "coabook1.pdf"
     },
     {
+        bookName: "Computer Organization and Design - The Hardware/Software Interface: RISC-V Edition by David A. Patterson and John L. Hennessy",
+        pages: 1665,
+        pdfFileName: "coabook1.pdf"
+    },
+    {
         bookName: "Computer Organisation and Architecture by Tarun Kumar Ghosh and Anindya Jyoti Pal",
         pages: 465,
         pdfFileName: "coabook2.pdf"

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round Robin Simulation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .heading {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: orange;
+        }
+
+        .heading.dark-mode {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="dark-mode-switch">
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+        <span class="dark-mode-label"></span>
+    </div>    
+    <div class="heading">ROUND ROBIN SIMULATOR</div>
+    <form id="rrForm">
+        <label for="numProcesses">Number of Processes:</label>
+        <input type="number" id="numProcesses" name="numProcesses" required><br>
+        <label for="timeQuantum">Time Quantum (in ms):</label>
+        <input type="number" id="timeQuantum" name="timeQuantum" required><br>
+        <div id="processFields">
+        </div>
+        <button type="button" id="runButton">Run Round Robin</button>
+        <div id="resultsContainer" style="display: none;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Process ID</th>
+                        <th>Arrival Time (ms)</th>
+                        <th>Burst Time (ms)</th>
+                        <th>Start Time (ms)</th>
+                        <th>Waiting Time (ms)</th>
+                        <th>Finish Time (ms)</th>
+                        <th>Turnaround Time (ms)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <p id="averageWaitingTime">Average Waiting Time:</p>
+            <p id="averageTurnaroundTime">Average Turnaround Time:</p>
+        </div>
+    </form>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+}
+li button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    max-width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 0;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+li button:hover {
+    background-color: #ff0000;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    color: orange;
+    font-size: 24px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 24px; /* You can adjust the font size as needed */
+}
+
+/* Input and button styles */
+input[type="text"] {
+    width: 480px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Update button styles for tasks, todos, goals, and reminders */
+button#add-task-button,
+button#add-todo-button,
+button#add-reminder-button,
+button#add-goal-button {
+    display: block;
+    margin: 0 auto; /* Center the buttons horizontally */
+    width: 150px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+
+/* Dark mode button styles */
+.darkbutton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s;
+}
+
+.darkbutton:hover {
+    transform: scale(1.2);
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #36393f;
+    color: #fff;
+}
+
+.dark-mode h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px; /* You can adjust the font size as needed */
+}
+
+.dark-mode .container{
+    background-color: #202225;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .darkbutton{
+    color: #FFA500;
+}
+
+.dark-mode input[type="text"]{
+    border: 1px solid #777;
+    background-color: #303135;
+    color: #fff;
+}
+
+.darkbutton {
+    background-color: #7289da;
+}
+
+.darkbutton:hover {
+    background-color: #677bc4;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #303135;
+    border-top: 1px solid #ddd;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.dark-mode .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color:  #777;
+    border-top: 1px solid #ddd;
+    color: #303135;
+    font-weight: bold;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.dark-mode .footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,57 @@
+body, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.stopwatch {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.time-display {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+.lap-times {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lap-times div {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stop, #lap {
+    background-color: #f44336;
+    color: white;
+}
+
+#reset {
+    background-color: #2196F3;
+    color: white;
+}

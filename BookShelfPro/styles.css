@@ -1,0 +1,357 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Reset default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a common font family for the body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Global container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+/* Header styles */
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0; /* Increase the top and bottom padding */
+    text-align: center;
+    position: relative;
+}
+
+/* Navigation links styles */
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    right: 60px; /* Adjust the right value as needed */
+    top: 50%; /* Vertically centered */
+    transform: translateY(-50%);
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hamburger menu icon styles */
+.menu-toggle {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    transform: translateY(-10%); /* Vertically center the button */
+    left: 10px;
+    z-index: 2; /* Place the button above other elements */
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Slide-in menu styles */
+.slide-in-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Adjust the initial left value to hide the menu */
+    width: 250px;
+    height: 100%;
+    background-color: #666;
+    list-style: none;
+    padding: 20px 0;
+    text-align: left;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+/* Menu item styles */
+.slide-in-menu li {
+    margin-bottom: 20px;
+    color: #007BFF; /* Blue text color */
+}
+
+/* Opened menu styles */
+.menu-open .slide-in-menu {
+    left: 0;
+}
+
+/* Styles for the hamburger button when the menu is open */
+.menu-open .hamburger {
+    color: #007BFF; /* Blue color */
+}
+
+/* Common heading styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+
+/* Common paragraph styles */
+p {
+    margin-bottom: 2em;
+}
+
+/* Table styles */
+table {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3em;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* List item styles for sorted books */
+#sortedBooksList li {
+    margin-bottom: 1em;
+}
+
+/* Button styles */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 2em;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:before {
+    content: "\f055";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+}
+
+/* Common icon styles */
+.icon {
+    font-family: 'Font Awesome';
+}
+
+.icon:hover {
+    transform: rotate(45deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Dark mode switch styles */
+.dark-mode-switch {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 26px;
+    width: 55px;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 30px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "☀️";
+    height: 26px;
+    width: 26px;
+    font-size: 20px;
+    left: 2px;
+    bottom: 2px;
+    color: #FFD700;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+input:checked + .slider:before {
+    content: "🌙";
+    color: #888;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Bright mode styles for the other web app section */
+.other-web-app {
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.other-web-app h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.other-web-app p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.other-web-app a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.other-web-app a:hover {
+    background-color: #0056b3;
+}
+
+/* Dark mode styles for the other web app section */
+.dark-mode .other-web-app {
+    background-color: #333;
+    border: 2px solid #555;
+}
+
+.dark-mode .other-web-app h3 {
+    color: #FFD700;
+}
+
+.dark-mode .other-web-app p {
+    color: #ffffff;
+}
+
+.dark-mode .other-web-app a {
+    background-color: #FFD700;
+    color: #ffffff;
+    border: 2px solid #FFD700;
+}
+
+.dark-mode .other-web-app a:hover {
+    background-color: #ffd700;
+    color: #333;
+}
+
+/* Discord-like dark mode styles for various elements */
+.dark-mode {
+    background-color: #36393f; /* Dark gray background */
+    color: #ffffff; /* White text */
+}
+
+/* Discord-like dark mode styles for headers and titles */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+    color: #ffffff; /* White text */
+}
+
+/* Discord-like dark mode styles for table headers */
+.dark-mode table th {
+    color: #ffffff; /* White text */
+}
+
+/* Discord-like dark mode styles for other elements */
+.dark-mode a,
+.dark-mode button,
+.dark-mode .icon {
+    background-color: #7289da; /* Discord blue */
+    color: #ffffff; /* White text */
+    border: 2px solid #677bc4; /* Border color */
+}
+
+.dark-mode a:hover,
+.dark-mode button:hover {
+    background-color: #677bc4; /* Slightly darker blue on hover */
+}
+
+/* Discord-like dark mode styles for the other-web-app section */
+.dark-mode .other-web-app {
+    background-color: #40444b; /* Slightly lighter gray background */
+    border: 2px solid #586069; /* Border color */
+}
+
+.dark-mode .other-web-app h3 {
+    color: #ffffff; /* White text */
+}
+
+.dark-mode .other-web-app p {
+    color: #ffffff; /* Light gray text */
+}
+
+.dark-mode .other-web-app a {
+    background-color: #7289da; /* Discord blue */
+    color: #ffffff; /* White text */
+    border: 2px solid #677bc4; /* Border color */
+}
+
+.dark-mode .other-web-app a:hover {
+    background-color: #677bc4; /* Slightly darker blue on hover */
+}

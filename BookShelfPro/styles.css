@@ -1,0 +1,365 @@
+/* Global styles */
+/* Global styles */
+body {
+    background-image: url('library-background.jpg');
+    background-size: 100% 100%; /* Stretch the image to full width and height */
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 579px;
+}
+
+/* Add your other CSS styles here */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202225; /* Dark mode header background color */
+    padding: 10px;
+}
+
+.indexcontainer {
+    margin-top: 10em;
+    margin-left: 0px;
+    color: #202A3B;
+    text-align: center;
+}
+
+.container {
+    color: #202A3B;
+    text-align: center;
+}
+
+.menu-toggle {
+    display: flex; /* or display: block; */
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+.bar {
+    background-color: #ffffff;
+    height: 3px;
+    width: 30px;
+    margin: 3px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff; /* Link color for dark mode */
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: orange; /* Link color on hover */
+}
+
+.slide-in-menu {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 1200px;
+    background-color: #202225; /* Dark mode slide-in menu background color */
+    transition: 0.5s;
+    padding: 50px 0;
+}
+
+.slide-in-menu li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.slide-in-menu a {
+    text-decoration: none;
+    color: #ffffff; /* Link color for dark mode */
+}
+
+.slide-in-menu a:hover {
+    color: orange; /* Link color on hover */
+}
+
+/* Add this CSS to style the close button and icon */
+.close-button {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.close-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.close-button a:hover {
+    color: orange;
+}
+
+/* Style the close icon (Font Awesome) */
+.close-button i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Add your additional CSS styles for other HTML files here */
+
+/* Footer styles (for social media icons) */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202225; /* Dark mode footer background color */
+    height: 50px;
+}
+
+footer a {
+    margin: 0 10px;
+    color: #ffffff; /* Icon color for dark mode */
+    font-size: 24px;
+}
+
+/* Developer card styles */
+/* Developer card styles */
+.developer-card {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the card horizontally on the page */
+}
+
+.developer-image {
+    flex: 1; /* Image takes 1/3 of the container width */
+}
+
+.developer-image img {
+    max-width: 150px;
+    border-radius: 5px; /* Add rounded corners to the image */
+}
+
+.developer-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.developer-info h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.developer-info p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.developer-info a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+.slide-in-menu .social-media-link {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.slide-in-menu .social-media-link i {
+    margin-left: 135px;
+}
+
+.slide-in-menu .social-media-link a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Apply styles to the entire table */
+table {
+    margin-left: 250px;
+    width: 600px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Style the table header (th) */
+th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+/* Style the table rows (even and odd) */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Style the table cells (td) */
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Add this CSS to style the subject cards */
+.subject-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.subject-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.subject-card:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-5px);
+}
+
+.subject-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.subject-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Add CSS for the books list here */
+.books-list {
+    margin-top: 20px;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+} */
+
+.semester-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.semester-card:hover {
+    transform: scale(1.05);
+}
+
+.semester-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.semester-card p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#first-semester {
+    background-image: url('1st-semester-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#second-semester {
+    background-image: url('2nd-semester-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add margin to separate the rows */
+}
+
+.project-card {
+    flex: 0 1 calc(50% - 20px); /* 50% width with some spacing */
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Add the following code to ensure two projects in one line and the other two in the next line */
+.project-card:nth-child(odd) {
+    margin-right: 20px;
+}
+
+@media (max-width: 700px) {
+    .project-card {
+        flex: 0 1 100%;
+        margin-right: 0;
+    }
+}
+

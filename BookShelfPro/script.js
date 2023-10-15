@@ -184,12 +184,47 @@ window.addEventListener('load', () => {
 
 // Dummy subjects and books
 const subjects = [
-    { name: 'Mathematics', image: 'math.jpg', books: [
+    { name: 'Transforms and Boundary Value Problems', image: 'tbvp.jpg', books: [
         { name: 'Book 1', pdfLink: 'math-book1.pdf' },
         { name: 'Book 2', pdfLink: 'math-book2.pdf' },
         { name: 'Book 3', pdfLink: 'math-book3.pdf' }
     ] },
-    { name: 'Science', image: 'science.jpg', books: [
+    { name: 'Design Thinking and Methodology', image: 'dtm.jpg', books: [
+        { name: 'Book 1', pdfLink: 'math-book1.pdf' },
+        { name: 'Book 2', pdfLink: 'math-book2.pdf' },
+        { name: 'Book 3', pdfLink: 'math-book3.pdf' }
+    ] },
+    { name: 'Computer Organisation and Architecture', image: 'coa.jpg', books: [
+        { name: 'Book 1', pdfLink: 'math-book1.pdf' },
+        { name: 'Book 2', pdfLink: 'math-book2.pdf' },
+        { name: 'Book 3', pdfLink: 'math-book3.pdf' }
+    ] },
+    { name: 'Data Structures and Algorithms', image: 'dsa.jpg', books: [
+        { name: 'Book 1', pdfLink: 'math-book1.pdf' },
+        { name: 'Book 2', pdfLink: 'math-book2.pdf' },
+        { name: 'Book 3', pdfLink: 'math-book3.pdf' }
+    ] },
+    { name: 'Operating Systems', image: 'os.jpg', books: [
+        { name: 'Book 1', pdfLink: 'math-book1.pdf' },
+        { name: 'Book 2', pdfLink: 'math-book2.pdf' },
+        { name: 'Book 3', pdfLink: 'math-book3.pdf' }
+    ] },
+    { name: 'Advanced Programming Practice', image: 'app.jpg', books: [
+        { name: 'Book 1', pdfLink: 'math-book1.pdf' },
+        { name: 'Book 2', pdfLink: 'math-book2.pdf' },
+        { name: 'Book 3', pdfLink: 'math-book3.pdf' }
+    ] },
+    { name: 'Professional Ethics', image: 'pe.jpg', books: [
+        { name: 'Book 1', pdfLink: 'math-book1.pdf' },
+        { name: 'Book 2', pdfLink: 'math-book2.pdf' },
+        { name: 'Book 3', pdfLink: 'math-book3.pdf' }
+    ] },
+    { name: 'Verbal Reasoning', image: 'vr.jpg', books: [
+        { name: 'Book 1', pdfLink: 'math-book1.pdf' },
+        { name: 'Book 2', pdfLink: 'math-book2.pdf' },
+        { name: 'Book 3', pdfLink: 'math-book3.pdf' }
+    ] },
+    { name: 'Add on Course in C', image: 'add.jpg', books: [
         { name: 'Book 4', pdfLink: 'science-book4.pdf' },
         { name: 'Book 5', pdfLink: 'science-book5.pdf' },
         { name: 'Book 6', pdfLink: 'science-book6.pdf' }

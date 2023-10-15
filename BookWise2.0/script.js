@@ -16,8 +16,64 @@ closeMenuButton.addEventListener('click', closeSlideInMenu);
 
 const books = [
     {
-        name: "Computer Organization and Design - The Hardware/Software Interface: RISC-V Edition by David A. Patterson and John L. Hennessy",
-        pdfLink: "books/coabook1.pdf"
+        name: "B.E.E.E - Unit 1",
+        pdfLink: "books/beeunit1.pdf"
+    },
+    {
+        name: "B.E.E.E - Unit 2",
+        pdfLink: "books/beeunit2.pdf"
+    },
+    {
+        name: "B.E.E.E - Unit 3",
+        pdfLink: "books/beeunit3.pdf"
+    },
+    {
+        name: "B.E.E.E - Unit 4",
+        pdfLink: "books/beeunit4.pdf"
+    },
+    {
+        name: "B.E.E.E - Unit 5",
+        pdfLink: "books/beeunit5.pdf"
+    },
+    {
+        name: "O.O.D.P - Unit 1",
+        pdfLink: "books/oodpunit1.pdf"
+    },
+    {
+        name: "O.O.D.P - Unit 2",
+        pdfLink: "books/oodpunit2.pdf"
+    },
+    {
+        name: "O.O.D.P - Unit 3",
+        pdfLink: "books/oodpunit3.pdf"
+    },
+    {
+        name: "O.O.D.P - Unit 4",
+        pdfLink: "books/oodpunit4.pdf"
+    },
+    {
+        name: "O.O.D.P - Unit 5",
+        pdfLink: "books/oodpunit5.pdf"
+    },
+    {
+        name: "PHYSICS - Unit 1",
+        pdfLink: "books/phyunit1.pdf"
+    },
+    {
+        name: "PHYSICS - Unit 2",
+        pdfLink: "books/phyunit2.pdf"
+    },
+    {
+        name: "PHYSICS - Unit 3",
+        pdfLink: "books/phyunit3.pdf"
+    },
+    {
+        name: "PHYSICS - Unit 4",
+        pdfLink: "books/phyunit4.pdf"
+    },
+    {
+        name: "PHYSICS - Unit 5",
+        pdfLink: "books/phyunit5.pdf"
     },
 ];
 
@@ -77,21 +133,68 @@ window.addEventListener('load', () => {
 const subjects = [
     { name: 'B.E.E.E', image: 'images/bee.jpg', books: [
         {
-            name: "Maths Booster Question Paper - Solution",
-            pdfLink: "books/boostersolution.pdf"
+            name: "B.E.E.E - Unit 1",
+            pdfLink: "books/beeunit1.pdf"
         },
         {
-            name: "Transforms and Boundary Value Problems - Handwritten Notes - Unit 3",
-            pdfLink: "books/mathunit3.pdf"
-        }
+            name: "B.E.E.E - Unit 2",
+            pdfLink: "books/beeunit2.pdf"
+        },
+        {
+            name: "B.E.E.E - Unit 3",
+            pdfLink: "books/beeunit3.pdf"
+        },
+        {
+            name: "B.E.E.E - Unit 4",
+            pdfLink: "books/beeunit4.pdf"
+        },
+        {
+            name: "B.E.E.E - Unit 5",
+            pdfLink: "books/beeunit5.pdf"
+        },
     ] },
     { name: 'O.O.D.P', image: 'images/oodp.jpg', books: [
-        { name: "Design Thinking and Methodology - Business Model", pdfLink: "books/dtm1.pdf" }
+        {
+            name: "O.O.D.P - Unit 1",
+            pdfLink: "books/oodpunit1.pdf"
+        },
+        {
+            name: "O.O.D.P - Unit 2",
+            pdfLink: "books/oodpunit2.pdf"
+        },
+        {
+            name: "O.O.D.P - Unit 3",
+            pdfLink: "books/oodpunit3.pdf"
+        },
+        {
+            name: "O.O.D.P - Unit 4",
+            pdfLink: "books/oodpunit4.pdf"
+        },
+        {
+            name: "O.O.D.P - Unit 5",
+            pdfLink: "books/oodpunit5.pdf"
+        },
     ] },
     { name: 'PHYSICS', image: 'images/phy.jpg', books: [
         {
-            name: "Computer Organisation and Architecture - Unit 1",
-            pdfLink: "books/coaunit1.pdf"
+            name: "PHYSICS - Unit 1",
+            pdfLink: "books/phyunit1.pdf"
+        },
+        {
+            name: "PHYSICS - Unit 2",
+            pdfLink: "books/phyunit2.pdf"
+        },
+        {
+            name: "PHYSICS - Unit 3",
+            pdfLink: "books/phyunit3.pdf"
+        },
+        {
+            name: "PHYSICS - Unit 4",
+            pdfLink: "books/phyunit4.pdf"
+        },
+        {
+            name: "PHYSICS - Unit 5",
+            pdfLink: "books/phyunit5.pdf"
         },
     ] }
 ];

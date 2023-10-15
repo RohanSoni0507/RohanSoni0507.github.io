@@ -193,7 +193,7 @@ window.addEventListener('load', () => {
 });
 
 const subjects = [
-    { name: 'Transforms and Boundary Value Problems', image: 'tbvp.jpg', books: [
+    { name: 'Transforms and Boundary Value Problems', image: 'images/tbvp.jpg', books: [
         {
             name: "Maths Booster Question Paper - Solution",
             pdfLink: "books/boostersolution.pdf"
@@ -203,10 +203,10 @@ const subjects = [
             pdfLink: "books/mathunit3.pdf"
         }
     ] },
-    { name: 'Design Thinking and Methodology', image: 'dtm.jpg', books: [
+    { name: 'Design Thinking and Methodology', image: 'images/dtm.jpg', books: [
         { name: "Design Thinking and Methodology - Business Model", pdfLink: "books/dtm1.pdf" }
     ] },
-    { name: 'Computer Organisation and Architecture', image: 'coa.jpg', books: [
+    { name: 'Computer Organisation and Architecture', image: 'images/coa.jpg', books: [
         {
             name: "Computer Organisation and Architecture - Unit 1",
             pdfLink: "books/coaunit1.pdf"
@@ -248,7 +248,7 @@ const subjects = [
             pdfLink: "books/coabook6.pdf"
         },
     ] },
-    { name: 'Data Structures and Algorithms', image: 'dsa.jpg', books: [
+    { name: 'Data Structures and Algorithms', image: 'images/dsa.jpg', books: [
         {
             name: "Data Structures and Algorithms - Unit 1",
             pdfLink: "books/dsaunit1.pdf"
@@ -266,7 +266,7 @@ const subjects = [
             pdfLink: "books/dsalabweek9.pdf"
         }
     ] },
-    { name: 'Operating Systems', image: 'os.jpg', books: [
+    { name: 'Operating Systems', image: 'images/os.jpg', books: [
         {
             name: "Operating Systems - Handbook",
             pdfLink: "books/oshandbook.pdf"
@@ -284,7 +284,7 @@ const subjects = [
             pdfLink: "books/oslabweek9.pdf"
         }
     ] },
-    { name: 'Advanced Programming Practice', image: 'app.jpg', books: [
+    { name: 'Advanced Programming Practice', image: 'images/app.jpg', books: [
         {
             name: "Advanced Programming Practice - Unit 1",
             pdfLink: "books/appunit1.pdf"
@@ -314,17 +314,17 @@ const subjects = [
             pdfLink: "books/appweek10.pdf"
         }
     ] },
-    { name: 'Professional Ethics', image: 'pe.jpg', books: [
+    { name: 'Professional Ethics', image: 'images/pe.jpg', books: [
         { name: "Professional Ethics - CLA T1", 
           pdfLink: "books/pe.pdf" 
         }
     ] },
-    { name: 'Verbal Reasoning', image: 'vr.jpg', books: [
+    { name: 'Verbal Reasoning', image: 'images/vr.jpg', books: [
         { name: "Verbal Reasoning - Lesson Plan", 
           pdfLink: "books/vr.pdf" 
         }
     ] },
-    { name: 'Add on Course in C', image: 'add.jpg', books: [
+    { name: 'Add on Course in C', image: 'images/add.jpg', books: [
         {
             name: "ADD ON COURSE IN C - ASSIGNEMNT 3 - STRUCTURE - L2 & S2",
             pdfLink: "books/adonass3.pdf"
@@ -386,12 +386,12 @@ window.addEventListener('load', createSubjectCards);
 const semesters = [
     {
         name: "1st Semester",
-        image: "1semester.jpg",
+        image: "images/1semester.jpg",
         websiteLink: "https://rohansoni0507.github.io/BookWise1.0/",
     },
     {
         name: "2nd Semester",
-        image: "2semester.jpg",
+        image: "images/2semester.jpg",
         websiteLink: "https://rohansoni0507.github.io/BookWise2.0/",
     },
 ];
@@ -431,22 +431,22 @@ window.addEventListener('load', createSemesterCards);
 const projectsData = [
     {
         name: "Morse Code Translator",
-        image: "project1.jpg",
+        image: "images/project1.jpg",
         website: "https://rohansoni0507.github.io/MorseyCode/",
     },
     {
         name: "Desktop Voice Assistant",
-        image: "project2.jpg",
+        image: "images/project2.jpg",
         website: "https://rohansoni0507.github.io/AIDesk/",
     },
     {
         name: "Round Robin Web Scheduler",
-        image: "project3.jpg",
+        image: "images/project3.jpg",
         website: "https://rohansoni0507.github.io/RRSim/",
     },
     {
         name: "Productivity Tracker",
-        image: "project4.jpg",
+        image: "images/project4.jpg",
         website: "https://rohansoni0507.github.io/ProductivityPro/",
     },
 ];

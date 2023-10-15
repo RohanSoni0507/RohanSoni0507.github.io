@@ -59,7 +59,8 @@ body {
 }
 
 .nav-links a:hover {
-    color: orange;
+    transform: scale(1.05);
+    color: #faa61a;
 }
 
 .slide-in-menu {
@@ -69,7 +70,7 @@ body {
     left: -300px;
     width: 300px;
     height: 1200px;
-    background-color: #202225; /* Dark mode slide-in menu background color */
+    background-color: #202225;
     transition: 0.5s;
     padding: 50px 0;
 }
@@ -81,14 +82,14 @@ body {
 
 .slide-in-menu a {
     text-decoration: none;
-    color: #ffffff; /* Link color for dark mode */
+    color: #ffffff;
 }
 
 .slide-in-menu a:hover {
-    color: orange; /* Link color on hover */
+    transform: scale(1.05);
+    color: #faa61a;
 }
 
-/* Add this CSS to style the close button and icon */
 .close-button {
     text-align: right;
     margin-right: 10px;
@@ -103,31 +104,25 @@ body {
     color: orange;
 }
 
-/* Style the close icon (Font Awesome) */
 .close-button i {
     font-size: 20px;
     cursor: pointer;
 }
 
-/* Add your additional CSS styles for other HTML files here */
-
-/* Footer styles (for social media icons) */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #202225; /* Dark mode footer background color */
+    background-color: #202225;
     height: 50px;
 }
 
 footer a {
     margin: 0 10px;
-    color: #ffffff; /* Icon color for dark mode */
+    color: #ffffff;
     font-size: 24px;
 }
 
-/* Developer card styles */
-/* Developer card styles */
 .developer-card {
     display: flex;
     align-items: center;
@@ -135,17 +130,17 @@ footer a {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    max-width: 400px; /* Adjust the max-width as needed */
-    margin: 0 auto; /* Center the card horizontally on the page */
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .developer-image {
-    flex: 1; /* Image takes 1/3 of the container width */
+    flex: 1;
 }
 
 .developer-image img {
     max-width: 150px;
-    border-radius: 5px; /* Add rounded corners to the image */
+    border-radius: 5px;
 }
 
 .developer-info {
@@ -187,7 +182,7 @@ footer a {
     text-decoration: none;
     color: #ffffff;
 }
-/* Apply styles to the entire table */
+
 table {
     margin-left: 250px;
     width: 600px;
@@ -198,7 +193,6 @@ table {
     font-size: 16px;
 }
 
-/* Style the table header (th) */
 th {
     background-color: #333;
     color: #fff;
@@ -208,7 +202,6 @@ th {
     border: 1px solid #444;
 }
 
-/* Style the table rows (even and odd) */
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
@@ -217,19 +210,16 @@ tr:nth-child(odd) {
     background-color: #fff;
 }
 
-/* Style the table cells (td) */
 td {
     padding: 10px;
     text-align: left;
     border: 1px solid #ccc;
 }
 
-/* Hover effect on table rows */
 tr:hover {
     background-color: #ddd;
 }
 
-/* Add this CSS to style the subject cards */
 .subject-cards {
     display: flex;
     flex-wrap: wrap;
@@ -239,8 +229,9 @@ tr:hover {
 .subject-card {
     border: 1px solid #ccc;
     padding: 10px;
-    width: 200px;
-    background-color: #fff;
+    height:176px;
+    color: #faa61a;
+    background-color: transparent;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background-color 0.2s, transform 0.2s;
@@ -252,7 +243,6 @@ tr:hover {
 }
 
 .subject-image {
-    width: 100%;
     height: 150px;
     object-fit: cover;
 }
@@ -262,7 +252,6 @@ tr:hover {
     margin-top: 10px;
 }
 
-/* Add CSS for the books list here */
 .books-list {
     margin-top: 20px;
 }
@@ -274,88 +263,97 @@ tr:hover {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-/* body {
+
+.semester-cards {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-} */
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
 .semester-card {
-    width: 300px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: center;
-    padding: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 250px;
+    width: 200px;
+    color: #ccc;
+    background-color: transparent;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: transform 0.2s;
+    transition: background-color 0.2s, transform 0.2s;
+    margin: 40px 20px;
+    margin-left: 250px;
 }
 
 .semester-card:hover {
     transform: scale(1.05);
 }
 
-.semester-card img {
-    max-width: 100%;
-    height: auto;
+.semester-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
-.semester-card p {
-    margin: 10px 0;
-    font-size: 18px;
+.semester-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.semester-card a {
+    text-decoration: none;
+    color: #007BFF;
     font-weight: bold;
 }
 
-#first-semester {
-    background-image: url('1st-semester-background.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-#second-semester {
-    background-image: url('2nd-semester-background.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.project-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px; /* Add margin to separate the rows */
-}
-
-.project-card {
-    flex: 0 1 calc(50% - 20px); /* 50% width with some spacing */
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.project-card img {
-    max-width: 100%;
-    height: auto;
-}
-
-.project-card h3 {
-    margin: 10px 0;
-    color: #333;
-}
-
-/* Add the following code to ensure two projects in one line and the other two in the next line */
-.project-card:nth-child(odd) {
-    margin-right: 20px;
-}
-
 @media (max-width: 700px) {
-    .project-card {
+    .semester-card {
         flex: 0 1 100%;
         margin-right: 0;
     }
 }
 
+.project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 2em;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    color: #fff;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    margin-left: 20px;
+}
+
+.project-card img {
+    width: 250px;
+    height: 160px;
+}
+
+.project-card h3 {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.project-card a {
+    display: block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

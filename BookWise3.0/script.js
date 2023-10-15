@@ -388,3 +388,98 @@ function displayBooks(books) {
 }
 
 window.addEventListener('load', createSubjectCards);
+
+const semesters = [
+    {
+        name: "1st Semester",
+        image: "1semester.jpg",
+        websiteLink: "https://example.com/1st-semester-library",
+    },
+    {
+        name: "2nd Semester",
+        image: "2semester.jpg",
+        websiteLink: "https://example.com/2nd-semester-library",
+    },
+];
+
+function createSemesterCards() {
+    const semesterCardsContainer = document.querySelector('.semester-cards');
+
+    semesters.forEach((semester) => {
+        const card = document.createElement('div');
+        card.classList.add('semester-card');
+        card.id = semester.name.toLowerCase().replace(/\s/g, '-');
+
+        const image = document.createElement('img');
+        image.src = semester.image;
+        image.alt = semester.name;
+        image.classList.add('semester-image');
+
+        const name = document.createElement('div');
+        name.textContent = semester.name;
+        name.classList.add('semester-name');
+
+        const websiteLink = document.createElement('a');
+        websiteLink.href = semester.websiteLink;
+        websiteLink.target = "_blank";
+        websiteLink.textContent = "Visit Website";
+
+        card.appendChild(image);
+        card.appendChild(name);
+        card.appendChild(websiteLink);
+
+        semesterCardsContainer.appendChild(card);
+    });
+}
+
+window.addEventListener('load', createSemesterCards);
+
+const projectsData = [
+    {
+        name: "Morse Code Translator",
+        image: "project1.jpg",
+        website: "https://rohansoni0507.github.io/MorseyCode/",
+    },
+    {
+        name: "Desktop Voice Assistant",
+        image: "project2.jpg",
+        website: "https://rohansoni0507.github.io/AIDesk/",
+    },
+    {
+        name: "Round Robin Web Scheduler",
+        image: "project3.jpg",
+        website: "https://rohansoni0507.github.io/RRSim/",
+    },
+    {
+        name: "Productivity Tracker",
+        image: "project4.jpg",
+        website: "https://rohansoni0507.github.io/ProductivityPro/",
+    },
+];
+
+function createProjectCards() {
+    const projectContainer = document.querySelector(".project-card-container");
+
+    projectsData.forEach((project) => {
+        const card = document.createElement("div");
+        card.classList.add("project-card");
+
+        const image = document.createElement("img");
+        image.src = project.image;
+        image.alt = project.name;
+
+        const projectName = document.createElement("h3");
+        projectName.textContent = project.name;
+
+        const projectLink = document.createElement("a");
+        projectLink.href = project.website;
+        projectLink.textContent = "Visit Project";
+
+        card.appendChild(image);
+        card.appendChild(projectName);
+        card.appendChild(projectLink);
+
+        projectContainer.appendChild(card);
+    });
+}
+createProjectCards();

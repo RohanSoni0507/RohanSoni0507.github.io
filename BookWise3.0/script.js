@@ -180,23 +180,17 @@ function quickSort(arr) {
 }
 
 window.addEventListener('load', () => {
-    // Check if this is the "Show Books" page
     const showBooksPage = document.querySelector('#show-book-list');
 
     if (showBooksPage) {
         listBooks(books);
     }
-    
-    // Check if this is the "Sort Books" page
     const sortBooksPage = document.querySelector('#sort-book-list');
 
     if (sortBooksPage) {
         sortBooks();
     }
 });
-
-
-
 
 const subjects = [
     { name: 'Transforms and Boundary Value Problems', image: 'tbvp.jpg', books: [
@@ -393,12 +387,12 @@ const semesters = [
     {
         name: "1st Semester",
         image: "1semester.jpg",
-        websiteLink: "https://example.com/1st-semester-library",
+        websiteLink: "https://rohansoni0507.github.io/BookWise1.0/",
     },
     {
         name: "2nd Semester",
         image: "2semester.jpg",
-        websiteLink: "https://example.com/2nd-semester-library",
+        websiteLink: "https://rohansoni0507.github.io/BookWise2.0/",
     },
 ];
 

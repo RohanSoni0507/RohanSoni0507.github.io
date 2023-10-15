@@ -184,8 +184,8 @@ footer a {
 }
 
 table {
-    margin-left: 250px;
-    width: 600px;
+    margin-left: 100px;
+    width: 1010px;
     border-collapse: collapse;
     border-spacing: 0;
     border: 2px solid #333;
@@ -200,6 +200,10 @@ th {
     padding: 10px;
     text-align: left;
     border: 1px solid #444;
+}
+
+tr{
+    color:#36393f
 }
 
 tr:nth-child(even) {

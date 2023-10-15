@@ -19,11 +19,118 @@ closeMenuButton.addEventListener('click', closeSlideInMenu);
 
 // Dummy book data
 const books = [
-    { name: 'Book 1', pdfLink: 'book1.pdf' },
-    { name: 'Book 5', pdfLink: 'book5.pdf' },
-    { name: 'Book 2', pdfLink: 'book2.pdf' },
-    { name: 'Book 4', pdfLink: 'book4.pdf' },
-    { name: 'Book 3', pdfLink: 'book3.pdf' },
+    {
+        name: "Computer Organization and Design - The Hardware/Software Interface: RISC-V Edition by David A. Patterson and John L. Hennessy",
+        pdfLink: "books/coabook1.pdf"
+    },
+    {
+        name: "Computer Organisation and Architecture by Tarun Kumar Ghosh and Anindya Jyoti Pal",
+        pdfLink: "books/coabook2.pdf"
+    },
+    {
+        name: "Computer Organization and Architecture - Designing for Performance - Tenth Edition by William Stalling",
+        pdfLink: "books/coabook3.pdf"
+    },
+    {
+        name: "Computer Architecture & Parallel Processing by Kai Hwang & Briggs",
+        pdfLink: "books/coabook4.pdf"
+    },
+    {
+        name: "Computer architecture and organisation by Hayes , John P. - 1944",
+        pdfLink: "books/coabook5.pdf"
+    },
+    {
+        name: "Computer Organisation , 5E",
+        pdfLink: "books/coabook6.pdf"
+    },
+    {
+        name: "Advanced Programming Practice Lab - Week 11",
+        pdfLink: "books/appweek11.pdf"
+    },
+    {
+        name: "Advanced Programming Practice Lab - Week 10",
+        pdfLink: "books/appweek10.pdf"
+    },
+    {
+        name: "Transforms and Boundary Value Problems - Handwritten Notes - Unit 3",
+        pdfLink: "books/mathunit3.pdf"
+    },
+    {
+        name: "Data Structures and Algorithms Lab - Week 9",
+        pdfLink: "books/dsalabweek9.pdf"
+    },
+    {
+        name: "Advanced Programming Practice - Unit 4",
+        pdfLink: "books/appunit4.pdf"
+    },
+    {
+        name: "Maths Booster Question Paper - Solution",
+        pdfLink: "books/boostersolution.pdf"
+    },
+    {
+        name: "ADD ON COURSE IN C - ASSIGNEMNT 3 - STRUCTURE - L2 & S2",
+        pdfLink: "books/adonass3.pdf"
+    },
+    {
+        name: "Advanced Programming Practice Lab - Week 9",
+        pdfLink: "books/applabweek9.pdf"
+    },
+    {
+        name: "Operating Systems Lab - Week 9",
+        pdfLink: "books/oslabweek9.pdf"
+    },
+    {
+        name: "Computer Organisation and Architecture - Unit 4",
+        pdfLink: "books/coaunit4.pdf"
+    },
+    {
+        name: "Data Structures and Algorithms - Unit 3",
+        pdfLink: "books/dsaunit3.pdf"
+    },
+    {
+        name: "Advanced Programming Practice - Unit 3",
+        pdfLink: "books/appunit3.pdf"
+    },
+    {
+        name: "Computer Organisation and Architecture - Unit 3",
+        pdfLink: "books/coaunit3.pdf"
+    },
+    {
+        name: "Operating Systems - Unit 2",
+        pdfLink: "books/osunit2.pdf"
+    },
+    {
+        name: "Data Structures and Algorithms - Unit 2",
+        pdfLink: "books/dsaunit2.pdf"
+    },
+    {
+        name: "Advanced Programming Practice - Unit 2",
+        pdfLink: "books/appunit2.pdf"
+    },
+    {
+        name: "Computer Organisation and Architecture - Unit 2",
+        pdfLink: "books/coaunit2.pdf"
+    },
+    {
+        name: "Data Structures and Algorithms - Unit 1",
+        pdfLink: "books/dsaunit1.pdf"
+    },
+    {
+        name: "Advanced Programming Practice - Unit 1",
+        pdfLink: "books/appunit1.pdf"
+    },
+    {
+        name: "Operating Systems - Unit 1",
+        pdfLink: "books/osunit1.pdf"
+    },
+    {
+        name: "Computer Organisation and Architecture - Unit 1",
+        pdfLink: "books/coaunit1.pdf"
+    },
+    {
+        name: "Operating Systems - Handbook",
+        pdfLink: "books/oshandbook.pdf"
+    },
 ];
 
 // Function to list books in a table

@@ -1,0 +1,105 @@
+/* Reset some default styles and set a background image */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('restaurant-background.jpg');
+    background-size: cover;
+}
+
+/* Style the header and navigation menu */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Style headings */
+h1, h2 {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style sections */
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Style links */
+a {
+    color: #ff5733;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the contact information and address */
+address {
+    font-style: normal;
+}
+
+/* Style the contact form if added */
+/* Example styles - you may need to customize further */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    margin: 10px 0;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #e64528;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Additional styling for specific pages and elements can be added as needed. */

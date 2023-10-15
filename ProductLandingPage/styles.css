@@ -1,0 +1,72 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image (e.g., white and gray marble floor) */
+body {
+    background: url('marble.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+/* Style your header, product section, features section, testimonials section, and contact section */
+header, .product-section, .features-section, .testimonials-section, .contact-section {
+    background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Style the product image */
+.product-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-details {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.buy-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style other sections, such as features and testimonials */
+.features-section ul {
+    list-style: none;
+}
+
+/* Style customer testimonials */
+.testimonials-section ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Style contact information */
+.contact-section p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Style the footer */
+footer {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+}

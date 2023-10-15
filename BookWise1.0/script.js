@@ -16,126 +16,92 @@ closeMenuButton.addEventListener('click', closeSlideInMenu);
 
 const books = [
     {
-        name: "Computer Organization and Design - The Hardware/Software Interface: RISC-V Edition by David A. Patterson and John L. Hennessy",
-        pdfLink: "books/coabook1.pdf"
+        name: "Biology - Unit 1",
+        pdfLink: "books/biounit1.pdf"
     },
     {
-        name: "Computer Organisation and Architecture by Tarun Kumar Ghosh and Anindya Jyoti Pal",
-        pdfLink: "books/coabook2.pdf"
+        name: "Biology - Unit 2",
+        pdfLink: "books/biounit2.pdf"
     },
     {
-        name: "Computer Organization and Architecture - Designing for Performance - Tenth Edition by William Stalling",
-        pdfLink: "books/coabook3.pdf"
+        name: "Biology - Unit 3",
+        pdfLink: "books/biounit3.pdf"
     },
     {
-        name: "Computer Architecture & Parallel Processing by Kai Hwang & Briggs",
-        pdfLink: "books/coabook4.pdf"
-    },
-    {
-        name: "Computer architecture and organisation by Hayes , John P. - 1944",
-        pdfLink: "books/coabook5.pdf"
-    },
-    {
-        name: "Computer Organisation , 5E",
-        pdfLink: "books/coabook6.pdf"
-    },
-    {
-        name: "Advanced Programming Practice Lab - Week 11",
-        pdfLink: "books/appweek11.pdf"
-    },
-    {
-        name: "Advanced Programming Practice Lab - Week 10",
-        pdfLink: "books/appweek10.pdf"
-    },
-    {
-        name: "Transforms and Boundary Value Problems - Handwritten Notes - Unit 3",
-        pdfLink: "books/mathunit3.pdf"
-    },
-    {
-        name: "Data Structures and Algorithms Lab - Week 9",
-        pdfLink: "books/dsalabweek9.pdf"
-    },
-    {
-        name: "Advanced Programming Practice - Unit 4",
-        pdfLink: "books/appunit4.pdf"
-    },
-    {
-        name: "Maths Booster Question Paper - Solution",
-        pdfLink: "books/boostersolution.pdf"
-    },
-    {
-        name: "ADD ON COURSE IN C - ASSIGNEMNT 3 - STRUCTURE - L2 & S2",
-        pdfLink: "books/adonass3.pdf"
-    },
-    {
-        name: "Advanced Programming Practice Lab - Week 9",
-        pdfLink: "books/applabweek9.pdf"
-    },
-    {
-        name: "Operating Systems Lab - Week 9",
-        pdfLink: "books/oslabweek9.pdf"
-    },
-    {
-        name: "Computer Organisation and Architecture - Unit 4",
-        pdfLink: "books/coaunit4.pdf"
-    },
-    {   name: "Design Thinking and Methodology - Business Model",         
-        pdfLink: 'books/dtm1.pdf' },
-    {
-        name: "Data Structures and Algorithms - Unit 3",
-        pdfLink: "books/dsaunit3.pdf"
-    },
-    {
-        name: "Advanced Programming Practice - Unit 3",
-        pdfLink: "books/appunit3.pdf"
-    },
-    {
-        name: "Computer Organisation and Architecture - Unit 3",
-        pdfLink: "books/coaunit3.pdf"
-    },
-    {
-        name: "Operating Systems - Unit 2",
-        pdfLink: "books/osunit2.pdf"
-    },
-    {
-        name: "Data Structures and Algorithms - Unit 2",
-        pdfLink: "books/dsaunit2.pdf"
-    },
-    {
-        name: "Advanced Programming Practice - Unit 2",
-        pdfLink: "books/appunit2.pdf"
-    },
-    {
-        name: "Computer Organisation and Architecture - Unit 2",
-        pdfLink: "books/coaunit2.pdf"
-    },
-    {
-        name: "Data Structures and Algorithms - Unit 1",
-        pdfLink: "books/dsaunit1.pdf"
-    },
-    {
-        name: "Advanced Programming Practice - Unit 1",
-        pdfLink: "books/appunit1.pdf"
-    },
-    {
-        name: "Operating Systems - Unit 1",
-        pdfLink: "books/osunit1.pdf"
-    },
-    {
-        name: "Computer Organisation and Architecture - Unit 1",
-        pdfLink: "books/coaunit1.pdf"
+        name: "Biology - Unit 4",
+        pdfLink: "books/biounit4.pdf"
     },
     { 
-        name: "Professional Ethics - CLA T1", 
-        pdfLink: "books/pe.pdf" 
+        name: "Chemistry - Lesson Plan",
+        pdfLink: "books/chemlessonplan.pdf" 
+    },
+    { 
+        name: "Chemistry - Unit 1",
+        pdfLink: "books/chemunit1.pdf" 
     },
     {
-        name: "Operating Systems - Handbook",
-        pdfLink: "books/oshandbook.pdf"
+        name: "Japanese - Unit 1",
+        pdfLink: "books/japunit1.pdf"
     },
-    {  
-         name: "Verbal Reasoning - Lesson Plan", 
-        pdfLink: "books/vr.pdf" 
+    {
+        name: "Japanese - Unit 2",
+        pdfLink: "books/japunit2.pdf"
+    },
+    {
+        name: "Japanese - Unit 3",
+        pdfLink: "books/japunit3.pdf"
+    },
+    {
+        name: "Japanese - Unit 4",
+        pdfLink: "books/japunit4.pdf"
+    },
+    {
+        name: "Japanese - Unit 5",
+        pdfLink: "books/japunit5.pdf"
+    },
+    {
+        name: "Japanese - Unit 6",
+        pdfLink: "books/japunit6.pdf"
+    },
+    {
+        name: "Japanese - Unit 7",
+        pdfLink: "books/japunit7.pdf"
+    },
+    {
+        name: "Japanese - Unit 8",
+        pdfLink: "books/japunit8.pdf"
+    },
+    {
+        name: "Engineering Mathematics-1",
+        pdfLink: "books/mathbook.pdf"
+    },
+    {
+        name: "Philosophy of Engineering - Unit 1",
+        pdfLink: "books/philunit1.pdf"
+    },
+    {
+        name: "Philosophy of Engineering - Unit 2",
+        pdfLink: "books/philunit2.pdf"
+    },
+    {
+        name: "Philosophy of Engineering - Unit 3",
+        pdfLink: "books/philunit3.pdf"
+    },
+    {
+        name: "P.P.S - Unit 1",
+        pdfLink: "books/ppsunit1.pdf"
+    },
+    {
+        name: "P.P.S - Unit 3",
+        pdfLink: "books/ppsunit3.pdf"
+    },
+    {
+        name: "P.P.S - Unit 4",
+        pdfLink: "books/ppsunit4.pdf"
+    },
+    {
+        name: "P.P.S - Unit 5",
+        pdfLink: "books/ppsunit5.pdf"
     },
 ];
 
@@ -195,53 +161,104 @@ window.addEventListener('load', () => {
 const subjects = [
     { name: 'Biology', image: 'images/bio.jpg', books: [
         {
-            name: "Maths Booster Question Paper - Solution",
-            pdfLink: "books/boostersolution.pdf"
+            name: "Biology - Unit 1",
+            pdfLink: "books/biounit1.pdf"
+        },
+        {
+            name: "Biology - Unit 2",
+            pdfLink: "books/biounit2.pdf"
+        },
+        {
+            name: "Biology - Unit 3",
+            pdfLink: "books/biounit3.pdf"
+        },
+        {
+            name: "Biology - Unit 4",
+            pdfLink: "books/biounit4.pdf"
         },
     ] },
     { name: 'Chemistry', image: 'images/chem.jpg', books: [
-        { name: "Design Thinking and Methodology - Business Model", pdfLink: "books/dtm1.pdf" }
-    ] },
-    { name: 'Computer Organisation and Architecture', image: 'images/coa.jpg', books: [
-        {
-            name: "Computer Organisation and Architecture - Unit 1",
-            pdfLink: "books/coaunit1.pdf"
+        { 
+         name: "Chemistry - Lesson Plan",
+         pdfLink: "books/chemlessonplan.pdf" 
         },
-    ] },
-    { name: 'Data Structures and Algorithms', image: 'images/dsa.jpg', books: [
-        {
-            name: "Data Structures and Algorithms - Unit 1",
-            pdfLink: "books/dsaunit1.pdf"
-        },
-    ] },
-    { name: 'Operating Systems', image: 'images/os.jpg', books: [
-        {
-            name: "Operating Systems - Handbook",
-            pdfLink: "books/oshandbook.pdf"
-        },
-    ] },
-    { name: 'Advanced Programming Practice', image: 'images/app.jpg', books: [
-        {
-            name: "Advanced Programming Practice - Unit 1",
-            pdfLink: "books/appunit1.pdf"
-        },
-    ] },
-    { name: 'Professional Ethics', image: 'images/pe.jpg', books: [
-        { name: "Professional Ethics - CLA T1", 
-          pdfLink: "books/pe.pdf" 
+        { 
+            name: "Chemistry - Unit 1",
+            pdfLink: "books/chemunit1.pdf" 
         }
     ] },
-    { name: 'Verbal Reasoning', image: 'images/vr.jpg', books: [
-        { name: "Verbal Reasoning - Lesson Plan", 
-          pdfLink: "books/vr.pdf" 
-        }
-    ] },
-    { name: 'Add on Course in C', image: 'images/add.jpg', books: [
+    { name: 'Japanese', image: 'images/jap.jpg', books: [
         {
-            name: "ADD ON COURSE IN C - ASSIGNEMNT 3 - STRUCTURE - L2 & S2",
-            pdfLink: "books/adonass3.pdf"
-        }
-    ]}
+            name: "Japanese - Unit 1",
+            pdfLink: "books/japunit1.pdf"
+        },
+        {
+            name: "Japanese - Unit 2",
+            pdfLink: "books/japunit2.pdf"
+        },
+        {
+            name: "Japanese - Unit 3",
+            pdfLink: "books/japunit3.pdf"
+        },
+        {
+            name: "Japanese - Unit 4",
+            pdfLink: "books/japunit4.pdf"
+        },
+        {
+            name: "Japanese - Unit 5",
+            pdfLink: "books/japunit5.pdf"
+        },
+        {
+            name: "Japanese - Unit 6",
+            pdfLink: "books/japunit6.pdf"
+        },
+        {
+            name: "Japanese - Unit 7",
+            pdfLink: "books/japunit7.pdf"
+        },
+        {
+            name: "Japanese - Unit 8",
+            pdfLink: "books/japunit8.pdf"
+        },
+    ] },
+    { name: 'Maths', image: 'images/math.jpg', books: [
+        {
+            name: "Engineering Mathematics-1",
+            pdfLink: "books/mathbook.pdf"
+        },
+    ] },
+    { name: 'Philosophy of Engineering', image: 'images/phil.jpg', books: [
+        {
+            name: "Philosophy of Engineering - Unit 1",
+            pdfLink: "books/philunit1.pdf"
+        },
+        {
+            name: "Philosophy of Engineering - Unit 2",
+            pdfLink: "books/philunit2.pdf"
+        },
+        {
+            name: "Philosophy of Engineering - Unit 3",
+            pdfLink: "books/philunit3.pdf"
+        },
+    ] },
+    { name: 'P.P.S', image: 'images/pps.jpg', books: [
+        {
+            name: "P.P.S - Unit 1",
+            pdfLink: "books/ppsunit1.pdf"
+        },
+        {
+            name: "P.P.S - Unit 3",
+            pdfLink: "books/ppsunit3.pdf"
+        },
+        {
+            name: "P.P.S - Unit 4",
+            pdfLink: "books/ppsunit4.pdf"
+        },
+        {
+            name: "P.P.S - Unit 5",
+            pdfLink: "books/ppsunit5.pdf"
+        },
+    ] },
 ];
 
 function createSubjectCards() {

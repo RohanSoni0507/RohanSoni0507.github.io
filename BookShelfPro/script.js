@@ -139,18 +139,24 @@ const books = [
     },
 ];
 
-function listBooks() {
+function listBooks(books) {
     const table = document.querySelector('#book-list');
     table.innerHTML = '';
 
-    books.forEach((book) => {
+    for (const book of books) {
         const row = table.insertRow();
         const nameCell = row.insertCell(0);
         const linkCell = row.insertCell(1);
 
         nameCell.textContent = book.name;
         linkCell.innerHTML = `<a href="${book.pdfLink}" target="_blank">Download PDF</a>`;
-    });
+    }
+}
+
+
+function sortBooks() {
+    const sortedBooks = quickSort(books);
+    listBooks(sortedBooks);
 }
 
 function quickSort(arr) {
@@ -173,16 +179,24 @@ function quickSort(arr) {
     return [...quickSort(left), pivot, ...quickSort(right)];
 }
 
-function sortBooks() {
-    const sortedBooks = quickSort(books);
-    books.length = 0;
-    books.push(...sortedBooks);
-    listBooks();
-}
-
 window.addEventListener('load', () => {
-    sortBooks();
+    // Check if this is the "Show Books" page
+    const showBooksPage = document.querySelector('#show-book-list');
+
+    if (showBooksPage) {
+        listBooks(books);
+    }
+    
+    // Check if this is the "Sort Books" page
+    const sortBooksPage = document.querySelector('#sort-book-list');
+
+    if (sortBooksPage) {
+        sortBooks();
+    }
 });
+
+
+
 
 const subjects = [
     { name: 'Transforms and Boundary Value Problems', image: 'tbvp.jpg', books: [

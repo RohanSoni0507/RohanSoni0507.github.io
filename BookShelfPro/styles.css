@@ -2,11 +2,13 @@
 /* Global styles */
 body {
     background-image: url('library-background.jpg');
-    background-size: 100% 100%; /* Stretch the image to full width and height */
+    background-size: cover; /* Cover the entire screen */
     background-repeat: no-repeat;
+    background-attachment: fixed; /* Fix the background in place */
     color: #ffffff;
-    height: 579px;
+    /* Remove the height property to allow dynamic resizing */
 }
+
 
 /* Add your other CSS styles here */
 

@@ -40,6 +40,10 @@ const books = [
         pdfLink: "books/coabook6.pdf"
     },
     {
+        name: "Advanced Programming Practice - Unit 5",
+        pdfLink: "books/appunit5.pdf"
+    },
+    {
         name: "Advanced Programming Practice Lab - Week 11",
         pdfLink: "books/appweek11.pdf"
     },
@@ -304,6 +308,10 @@ const subjects = [
         {
             name: "Advanced Programming Practice - Unit 4",
             pdfLink: "books/appunit4.pdf"
+        },
+        {
+            name: "Advanced Programming Practice - Unit 5",
+            pdfLink: "books/appunit5.pdf"
         },
         {
             name: "Advanced Programming Practice Lab - Week 11",

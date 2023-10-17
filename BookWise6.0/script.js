@@ -75,7 +75,61 @@ window.addEventListener('load', () => {
 });
 
 const subjects = [
-    { name: '', image: 'images/.jpg', books: [
+    { name: 'Data Science', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Software Engineering and Project Management', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Compiler Design', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Professional Elective - III', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Professional Elective - IV', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Open Elective -II', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Project', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'MOOC', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Employability Skills and Practices', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Indian Traditional Knowledge', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"

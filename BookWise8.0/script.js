@@ -157,6 +157,11 @@ const semesters = [
         websiteLink: "https://rohansoni0507.github.io/BookWise3.0/",
     },
     {
+        name: "4th Semester",
+        image: "images/4emester.jpg",
+        websiteLink: "https://rohansoni0507.github.io/BookWise4.0/",
+    },
+    {
         name: "5th Semester",
         image: "images/5semester.jpg",
         websiteLink: "https://rohansoni0507.github.io/BookWise5.0/",
@@ -169,10 +174,6 @@ const semesters = [
         name: "7th Semester",
         image: "images/7semester.jpg",
         websiteLink: "https://rohansoni0507.github.io/BookWise7.0/",
-    },    {
-        name: "8th Semester",
-        image: "images/8semester.jpg",
-        websiteLink: "https://rohansoni0507.github.io/BookWise8.0/",
     },
 ];
 

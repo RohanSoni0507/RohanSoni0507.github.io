@@ -188,12 +188,8 @@ const semesters = [
         name: "6th Semester",
         image: "images/6semester.jpg",
         websiteLink: "https://rohansoni0507.github.io/BookWise6.0/",
-    },
+    },    
     {
-        name: "7th Semester",
-        image: "images/7semester.jpg",
-        websiteLink: "https://rohansoni0507.github.io/BookWise7.0/",
-    },    {
         name: "8th Semester",
         image: "images/8semester.jpg",
         websiteLink: "https://rohansoni0507.github.io/BookWise8.0/",

@@ -75,49 +75,37 @@ window.addEventListener('load', () => {
 });
 
 const subjects = [
-    { name: 'Probability and Queueing Theory', image: 'images/pqt.jpg', books: [
+    { name: 'Behavioral Psychology', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Design and Analysis of Algorithms', image: 'images/daa.jpg', books: [
+    { name: 'Professional Elective - V', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Database Management System', image: 'images/dms.jpg', books: [
+    { name: 'Professional Elective - VI', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Artificial Intelligence', image: 'images/ai.jpg', books: [
+    { name: 'Professional Elective - VII', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Professional Elective-I', image: 'images/pe.jpg', books: [
+    { name: 'Professional Elective - VIII', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Social Engineering', image: 'images/se.jpg', books: [
-        {
-            name: "",
-            pdfLink: "books/.pdf"
-        },
-    ] },
-    { name: 'Critical and Creative Thinking Skills', image: 'images/ccts.jpg', books: [
-        {
-            name: "",
-            pdfLink: "books/.pdf"
-        },
-    ] },
-    { name: 'Universal Human Values', image: 'images/uhv.jpg', books: [
+    { name: 'Open Elective - III', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"

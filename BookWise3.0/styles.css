@@ -285,7 +285,7 @@ tr:hover {
     cursor: pointer;
     transition: background-color 0.2s, transform 0.2s;
     margin: 40px 20px;
-    margin-left: 250px;
+    margin-left: 50px;
 }
 
 .semester-card:hover {

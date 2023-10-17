@@ -75,7 +75,49 @@ window.addEventListener('load', () => {
 });
 
 const subjects = [
-    { name: '', image: 'images/.jpg', books: [
+    { name: 'Probability and Queueing Theory', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Design and Analysis of Algorithms', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Database Management System', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Artificial Intelligence', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Professional Elective-I', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Social Engineering', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Critical and Creative Thinking Skills', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Universal Human Values', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"

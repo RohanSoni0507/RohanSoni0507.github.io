@@ -75,7 +75,55 @@ window.addEventListener('load', () => {
 });
 
 const subjects = [
-    { name: '', image: 'images/.jpg', books: [
+    { name: 'Discrete Mathematics', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Formal Language and Automata', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Computer Networks', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Machine Learning', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Professional Elective - II', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Open Elective - I', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Community Connect', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Analytical and Logical Thinking Skills', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Indian Art Form', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"

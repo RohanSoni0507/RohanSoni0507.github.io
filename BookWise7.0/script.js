@@ -75,37 +75,37 @@ window.addEventListener('load', () => {
 });
 
 const subjects = [
-    { name: 'Behavioral Psychology', image: 'images/.jpg', books: [
+    { name: 'Behavioral Psychology', image: 'images/bp.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Professional Elective - V', image: 'images/.jpg', books: [
+    { name: 'Professional Elective - V', image: 'images/pe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Professional Elective - VI', image: 'images/.jpg', books: [
+    { name: 'Professional Elective - VI', image: 'images/pe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Professional Elective - VII', image: 'images/.jpg', books: [
+    { name: 'Professional Elective - VII', image: 'images/pe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Professional Elective - VIII', image: 'images/.jpg', books: [
+    { name: 'Professional Elective - VIII', image: 'images/pe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Open Elective - III', image: 'images/.jpg', books: [
+    { name: 'Open Elective - III', image: 'images/oe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"

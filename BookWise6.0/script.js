@@ -75,61 +75,61 @@ window.addEventListener('load', () => {
 });
 
 const subjects = [
-    { name: 'Data Science', image: 'images/.jpg', books: [
+    { name: 'Data Science', image: 'images/ds.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Software Engineering and Project Management', image: 'images/.jpg', books: [
+    { name: 'Software Engineering and Project Management', image: 'images/sepm.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Compiler Design', image: 'images/.jpg', books: [
+    { name: 'Compiler Design', image: 'images/cd.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Professional Elective - III', image: 'images/.jpg', books: [
+    { name: 'Professional Elective - III', image: 'images/pe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Professional Elective - IV', image: 'images/.jpg', books: [
+    { name: 'Professional Elective - IV', image: 'images/pe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Open Elective -II', image: 'images/.jpg', books: [
+    { name: 'Open Elective -II', image: 'images/oe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Project', image: 'images/.jpg', books: [
+    { name: 'Project', image: 'images/p.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'MOOC', image: 'images/.jpg', books: [
+    { name: 'MOOC', image: 'images/m.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Employability Skills and Practices', image: 'images/.jpg', books: [
+    { name: 'Employability Skills and Practices', image: 'images/esp.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Indian Traditional Knowledge', image: 'images/.jpg', books: [
+    { name: 'Indian Traditional Knowledge', image: 'images/itk.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"

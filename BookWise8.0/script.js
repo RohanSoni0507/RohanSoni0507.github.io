@@ -75,7 +75,13 @@ window.addEventListener('load', () => {
 });
 
 const subjects = [
-    { name: '', image: 'images/.jpg', books: [
+    { name: 'Major Project', image: 'images/.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Internship', image: 'images/.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"

@@ -75,55 +75,55 @@ window.addEventListener('load', () => {
 });
 
 const subjects = [
-    { name: 'Discrete Mathematics', image: 'images/.jpg', books: [
+    { name: 'Discrete Mathematics', image: 'images/dm.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Formal Language and Automata', image: 'images/.jpg', books: [
+    { name: 'Formal Language and Automata', image: 'images/fla.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Computer Networks', image: 'images/.jpg', books: [
+    { name: 'Computer Networks', image: 'images/cn.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Machine Learning', image: 'images/.jpg', books: [
+    { name: 'Machine Learning', image: 'images/ml.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Professional Elective - II', image: 'images/.jpg', books: [
+    { name: 'Professional Elective - II', image: 'images/pe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Open Elective - I', image: 'images/.jpg', books: [
+    { name: 'Open Elective - I', image: 'images/oe.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Community Connect', image: 'images/.jpg', books: [
+    { name: 'Community Connect', image: 'images/cc.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Analytical and Logical Thinking Skills', image: 'images/.jpg', books: [
+    { name: 'Analytical and Logical Thinking Skills', image: 'images/alts.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Indian Art Form', image: 'images/.jpg', books: [
+    { name: 'Indian Art Form', image: 'images/iaf.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"

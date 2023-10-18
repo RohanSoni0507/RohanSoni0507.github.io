@@ -1,3 +1,19 @@
+function openSlideInMenu() {
+    const slideInMenu = document.querySelector('.slide-in-menu');
+    slideInMenu.style.left = '0';
+}
+
+function closeSlideInMenu() {
+    const slideInMenu = document.querySelector('.slide-in-menu');
+    slideInMenu.style.left = '-300px';
+}
+
+const menuToggle = document.querySelector('.menu-toggle');
+const closeMenuButton = document.querySelector('#close-menu');
+
+menuToggle.addEventListener('click', openSlideInMenu);
+closeMenuButton.addEventListener('click', closeSlideInMenu);
+
 document.addEventListener('DOMContentLoaded', function () {
     const darkModeToggle = document.getElementById('darkModeToggle');
     const translationTextArea = document.getElementById('englishText');

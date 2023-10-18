@@ -6,6 +6,14 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -20,6 +28,118 @@ body {
     font-weight: bold;
     margin-top: 40px;
     margin-bottom: 30px;
+}
+
+.menu-toggle {
+    color : rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.bar {
+    background-color: #202225;
+    height: 3px;
+    width: 30px;
+    margin: 3px 0;
+}
+
+.dark-mode .bar {
+    background-color: #f0f0f0;
+    height: 3px;
+    width: 30px;
+    margin: 3px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 70px;
+}
+
+.nav-links a {
+    color : #202225;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.dark-mode .nav-links a {
+    color : #f0f0f0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    transform: scale(1.05);
+    color: #faa61a;
+}
+
+.slide-in-menu {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 1200px;
+    background-color: #202225;
+    transition: 0.5s;
+    padding: 50px 0;
+}
+
+.dark-mode .slide-in-menu {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 1200px;
+    background-color: #f0f0f0;
+    transition: 0.5s;
+    padding: 50px 0;
+}
+
+.slide-in-menu li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.slide-in-menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.dark-mode .slide-in-menu a {
+    text-decoration: none;
+    color: #202225;
+}
+
+.slide-in-menu a:hover {
+    transform: scale(1.05);
+    color: #faa61a;
+}
+
+.close-button {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.close-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.close-button a:hover {
+    color: orange;
+}
+
+.close-button i {
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .translator {
@@ -100,8 +220,8 @@ body.dark-mode {
 
 .dark-mode-switch {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 26px;
+    right: 10px;
     display: flex;
     align-items: center;
     z-index: 1000;

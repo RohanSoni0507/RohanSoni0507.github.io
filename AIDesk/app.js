@@ -45,6 +45,7 @@ function sendMessage(message) {
     chatbox.scrollTop = chatbox.scrollHeight;
 }
 
+
 function processCommand(command) {
     if (command.includes("open youtube")) {
         window.open("https://www.youtube.com/", '_blank');
@@ -52,8 +53,69 @@ function processCommand(command) {
         window.open("https://www.google.com/", '_blank');
     } else if (command.includes("open stack overflow")) {
         window.open("https://stackoverflow.com/", '_blank');
+    } else if (command.includes("check weather")) {
+        getWeather();
+    } else if (command.includes("check news")) {
+        getNews();
+    } else if (command.includes("calculate")) {
+        const expression = command.replace("calculate", "").trim();
+        evaluateMathExpression(expression);
     } else {
         sendMessage("Command not recognized.");
+    }
+}
+
+function getWeather() {
+    const apiKey = '9eb0b841a2d427a6474c6f015b18bfea';
+    const city = 'Chengalpattu';
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
+        .then((response) => response.json())
+        .then((data) => {
+            const weatherDescription = data.weather[0].description;
+            const temperature = (data.main.temp - 273.15).toFixed(2); // Convert temperature to Celsius
+
+            const weatherMessage = `The weather in ${city} is currently ${weatherDescription} with a temperature of ${temperature}°C.`;
+            sendMessage(weatherMessage);
+        })
+        .catch((error) => {
+            console.error('Weather API error:', error);
+            sendMessage('Unable to fetch weather information. Please try again.');
+        });
+}
+
+function getNews() {
+    const apiKey = '22782790a3864020b16621912d5ef144';
+    const newsSource = 'bbc-news';
+    const country = 'in';
+    const newsUrl = `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${apiKey}`;
+
+    fetch(newsUrl)
+        .then((response) => response.json())
+        .then((data) => {
+            if (data.status === 'ok' && data.articles.length > 0) {
+                const newsArticles = data.articles;
+                const newsMessage = 'Here are the latest news updates:\n';
+                newsArticles.forEach((article, index) => {
+                    newsMessage += `${index + 1}. ${article.title}\n`;
+                });
+                sendMessage(newsMessage);
+            } else {
+                sendMessage('Unable to fetch news updates. Please try again.');
+            }
+        })
+        .catch((error) => {
+            console.error('News API error:', error);
+            sendMessage('Unable to fetch news updates. Please try again.');
+        });
+}
+
+function evaluateMathExpression(expression) {
+    try {
+        const result = eval(expression);
+        sendMessage(`Result: ${result}`);
+    } catch (error) {
+        console.error('Math expression evaluation error:', error);
+        sendMessage('Invalid math expression. Please try again.');
     }
 }
 

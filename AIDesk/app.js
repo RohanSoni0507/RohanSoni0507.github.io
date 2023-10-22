@@ -28,9 +28,9 @@ const projectsData = [
         website: "https://rohansoni0507.github.io/BookWise/",
     },
     {
-        name: "Desktop Voice Assistant",
+        name: "Morse Code Translator",
         image: "project2.jpg",
-        website: "https://rohansoni0507.github.io/AIDesk/",
+        website: "https://rohansoni0507.github.io/MorseyCode/",
     },
     {
         name: "Round Robin Web Scheduler",

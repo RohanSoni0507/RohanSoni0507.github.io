@@ -1,3 +1,81 @@
+
+
+function openSlideInMenu() {
+    const slideInMenu = document.querySelector('.slide-in-menu');
+    slideInMenu.style.left = '0';
+}
+
+function closeSlideInMenu() {
+    const slideInMenu = document.querySelector('.slide-in-menu');
+    slideInMenu.style.left = '-300px';
+}
+
+const menuToggle = document.querySelector('.menu-toggle');
+const closeMenuButton = document.querySelector('#close-menu');
+
+menuToggle.addEventListener('click', openSlideInMenu);
+closeMenuButton.addEventListener('click', closeSlideInMenu);
+
+const projectsData = [
+    {
+        name: "Library Management System",
+        image: "project1.jpg",
+        website: "https://rohansoni0507.github.io/BookWise/",
+    },
+    {
+        name: "Morse Code Translator",
+        image: "project2.jpg",
+        website: "https://rohansoni0507.github.io/MorseyCode/",
+    },
+    {
+        name: "Voice-Activated Personal Assistant",
+        image: "project3.jpg",
+        website: "https://rohansoni0507.github.io/AIDesk/",
+    },
+    {
+        name: "Productivity Tracker",
+        image: "project4.jpg",
+        website: "https://rohansoni0507.github.io/ProductivityPro/",
+    },
+];
+
+function createProjectCards() {
+    const projectContainer = document.querySelector(".project-card-container");
+
+    projectsData.forEach((project) => {
+        const card = document.createElement("div");
+        card.classList.add("project-card");
+
+        const image = document.createElement("img");
+        image.src = project.image;
+        image.alt = project.name;
+
+        const projectName = document.createElement("h3");
+        projectName.textContent = project.name;
+
+        const projectLink = document.createElement("a");
+        projectLink.href = project.website;
+        projectLink.textContent = "Visit Project";
+
+        card.appendChild(image);
+        card.appendChild(projectName);
+        card.appendChild(projectLink);
+
+        projectContainer.appendChild(card);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('change', function () {
+        document.body.classList.toggle('dark-mode', darkModeToggle.checked);
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    createProjectCards();
+});
+
 class Process {
     constructor(id, arrivalTime, burstTime) {
         this.id = id;
@@ -10,6 +88,9 @@ class Process {
         this.turnaroundTime = 0;
     }
 }
+
+
+
 
 function compareById(a, b) {
     return a.id - b.id;
@@ -115,22 +196,3 @@ document.getElementById('numProcesses').addEventListener('input', function () {
     const numProcesses = parseInt(this.value);
     createProcessFields(numProcesses);
 });
-
-// Function to toggle dark mode
-function toggleDarkMode() {
-    const body = document.body;
-    body.classList.toggle('dark-mode');
-
-    // Save user's preference to localStorage
-    const isDarkMode = body.classList.contains('dark-mode');
-    localStorage.setItem('darkMode', isDarkMode);
-}
-
-// Check if user has a previous dark mode preference
-const isDarkMode = localStorage.getItem('darkMode');
-if (isDarkMode === 'true') {
-    document.body.classList.add('dark-mode');
-}
-
-// Attach dark mode toggle event handler
-document.getElementById('darkModeToggle').addEventListener('change', toggleDarkMode);

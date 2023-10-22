@@ -70,6 +70,7 @@ function createProjectCards() {
     });
 }
 createProjectCards();
+
 const chatbox = document.getElementById('chatbox');
 const startListeningButton = document.getElementById('start-listening');
 const stopListeningButton = document.getElementById('stop-listening');

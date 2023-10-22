@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Round Robin Simulation</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <style>
-        .heading {
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            color: orange;
-        }
-
-        .heading.dark-mode {
-            color: yellow;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="app.js" defer></script>
+    <title>Fair Play Tournament Manager</title>
 </head>
 <body>
+    <div class="header">
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>        
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#"><span>🙂 Welcome, User</span></a></li>
+        </ul>
+    </div>
     <div class="dark-mode-switch">
         <label class="switch">
             <input type="checkbox" id="darkModeToggle">
@@ -26,15 +30,30 @@
         </label>
         <span class="dark-mode-label"></span>
     </div>    
-    <div class="heading">ROUND ROBIN SIMULATOR</div>
+    <div class="heading">Fair Play Tournament Manager</div>
+    <ul class="slide-in-menu">
+        <li class="close-button">
+            <a href="#" id="close-menu">
+                <i class="fas fa-times"></i>
+            </a>
+        </li>
+        <li><a href="update.html">Latest Updates</a></li>
+        <li><a href="guide.html">Guide</a></li>
+        <li><a href="projects.html">More Projects</a></li>
+        <li class="social-media-link"><a href="https://www.facebook.com/rohansoni0507?mibextid=nW3QTL"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="social-media-link"><a href="https://www.instagram.com/rohansoni0507/?igshid=NGVhN2U2NjQ0Yg%3D%3D"><i class="fab fa-instagram"></i></a></li>
+        <li class="social-media-link"><a href="https://twitter.com/RohanSoni118254?t=IPXe6fEidR0cfmS4T5zZWw&s=09"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-media-link"><a href="https://www.linkedin.com/in/rohan-soni-963038224/"><i class="fab fa-linkedin"></i></a></li>
+        <li class="social-media-link"><a href="https://github.com/RohanSoni0507"><i class="fab fa-github"></i></a></li>
+    </ul>
     <form id="rrForm">
-        <label for="numProcesses">Number of Processes:</label>
+        <label for="numProcesses">Enter the Number of Participants:</label>
         <input type="number" id="numProcesses" name="numProcesses" required><br>
-        <label for="timeQuantum">Time Quantum (in ms):</label>
+        <label for="timeQuantum">Enter the Number of Rounds:</label>
         <input type="number" id="timeQuantum" name="timeQuantum" required><br>
         <div id="processFields">
         </div>
-        <button type="button" id="runButton">Run Round Robin</button>
+        <button type="button" id="runButton">Run Manager</button>
         <div id="resultsContainer" style="display: none;">
             <table>
                 <thead>
@@ -56,5 +75,4 @@
         </div>
     </form>
 </body>
-<script src="app.js"></script>
 </html>

@@ -21,7 +21,6 @@
         background-color: transparent;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
-
       h1 {
         margin-top: 1em;
         font-size: 24px;
@@ -100,67 +99,59 @@
       </li>
     </ul>
     <div class="container">
-      <h1>Voice-Activated Personal Assistant - User Guide</h1>
+      <h1>Fair Play Tournament Manager - User Guide</h1>
+      <h2>Getting Started</h2>
       <p>
-        Welcome to our project! This guide will help you get started and make
-        the most out of our application.
+        Welcome to Fair Play Tournament Manager! This guide will help you get
+        started with organizing sports tournaments using our web application.
       </p>
 
-      <h2>Table of Contents</h2>
-      <ul>
-        <li><a href="#section1">Getting Started</a></li>
-        <li><a href="#section2">Voice Commands</a></li>
-        <li><a href="#section3">Weather Updates</a></li>
-        <li><a href="#section4">News Updates</a></li>
-        <li><a href="#section5">Math Expressions</a></li>
-        <li><a href="#section6">Dark Mode</a></li>
-      </ul>
-
-      <h2 id="section1">Getting Started</h2>
+      <h3>Step 1: Create a Tournament</h3>
       <p>
-        To begin using our project, simply click the "Start Listening" button,
-        and the application will be ready to receive voice commands. You can
-        also click the "Stop Listening" button to pause voice recognition.
+        Begin by creating a new tournament. You can specify the number of
+        participants and customize the time quantum for scheduling rounds. Once
+        you've set up the basic details, click the "Run Manager" button.
       </p>
 
-      <h2 id="section2">Voice Commands</h2>
-      <p>Our application supports a variety of voice commands, including:</p>
-      <ul>
-        <li>"Open YouTube" to open the YouTube website.</li>
-        <li>"Open Google" to open the Google search engine.</li>
-        <li>"Open Stack Overflow" to open the Stack Overflow website.</li>
-      </ul>
-
-      <h2 id="section3">Weather Updates</h2>
+      <h3>Step 2: Enter Participant Data</h3>
       <p>
-        You can check the weather in your area by saying "Check Weather." The
-        application will provide you with the current weather conditions,
-        including temperature and description.
+        For each participant, enter their arrival time and burst time. This data
+        is essential for our round-robin scheduling algorithm to work. You can
+        add as many participants as needed.
       </p>
 
-      <h2 id="section4">News Updates</h2>
+      <h3>Step 3: Run the Scheduler</h3>
       <p>
-        Stay updated with the latest news by saying "Check News." The
-        application will fetch and display the top news headlines for you.
+        After entering all participant data, click the "Run Manager" button. Our
+        system will process the information and calculate the scheduling for
+        fair and balanced tournament rounds.
       </p>
 
-      <h2 id="section5">Math Expressions</h2>
+      <h2>FAQs</h2>
+      <h3>Q: How does round-robin scheduling work?</h3>
       <p>
-        If you need to perform calculations, you can say "Calculate" followed by
-        a mathematical expression. Our application will evaluate the expression
-        and provide the result.
+        A: Round-robin scheduling ensures that each participant competes against
+        all others in a fair and balanced manner. It divides the tournament into
+        rounds, allowing each participant to face every other participant.
       </p>
 
-      <h2 id="section6">Dark Mode</h2>
+      <h3>Q: Can I customize the time quantum for rounds?</h3>
       <p>
-        You can customize the visual theme by toggling the "Dark Mode" switch.
-        Enable it for a darker interface or disable it for the default theme.
+        A: Yes, you can specify the time quantum when creating a tournament. The
+        time quantum determines the maximum time each participant can play in a
+        round before switching to the next.
+      </p>
+
+      <h3>Q: How are waiting and turnaround times calculated?</h3>
+      <p>
+        A: Waiting time is the time a participant spends waiting for their turn
+        in a round. Turnaround time is the total time a participant takes from
+        arrival to completion of all their matches.
       </p>
 
       <p>
-        We hope you find this guide helpful and enjoy using our project. If you
-        have any questions or feedback, please don't hesitate to reach out.
-        Thank you for using our application!
+        If you have more questions or need assistance, don't hesitate to
+        <a href="contact.html">contact us</a>.
       </p>
     </div>
     <script src="app.js"></script>

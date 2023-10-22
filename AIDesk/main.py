@@ -39,7 +39,7 @@ def main():
 
 def get_weather():
     city = "Chengalpattu"
-    api_key = "YOUR_OPENWEATHERMAP_API_KEY"
+    api_key = "9eb0b841a2d427a6474c6f015b18bfea"
     weather_url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
 
     response = requests.get(weather_url)
@@ -54,7 +54,7 @@ def get_weather():
 
 def get_news():
     country = "in"
-    api_key = "YOUR_NEWSAPI_API_KEY"  # Replace with your News API key
+    api_key = "22782790a3864020b16621912d5ef144"
     news_source = "bbc-news"
     news_url = f"https://newsapi.org/v2/top-headlines?country={country}&apiKey={api_key}"
 

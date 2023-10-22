@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <title>More Projects</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="app.js" defer></script>
-    <title>Voice-Activated Personal Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1{
+            margin-left: 290px;
+        }
+    </style>
 </head>
 <body>
     <div class="header">
@@ -22,14 +26,6 @@
             <li><a href="#"><span>🙂 Welcome, User</span></a></li>
         </ul>
     </div>
-    <div class="dark-mode-switch">
-        <label class="switch">
-            <input type="checkbox" id="darkModeToggle">
-            <span class="slider round"></span>
-        </label>
-        <span class="dark-mode-label"></span>
-    </div>
-    <div class="heading">Python Powered Voice-Activated Personal Assistant</div>
     <ul class="slide-in-menu">
         <li class="close-button">
             <a href="#" id="close-menu">
@@ -45,17 +41,11 @@
         <li class="social-media-link"><a href="https://www.linkedin.com/in/rohan-soni-963038224/"><i class="fab fa-linkedin"></i></a></li>
         <li class="social-media-link"><a href="https://github.com/RohanSoni0507"><i class="fab fa-github"></i></a></li>
     </ul>
-    <div id="chatbox">
-        <div class="chat-message">
-            <p><strong>Welcome to Voice-Activated Personal Assistant</strong></p>
-            <p>How Can I Help You Today ?</p>
+    <div class="container">
+        <h1>More Projects</h1>
+        <div class="project-card-container">
         </div>
     </div>
-    <button id="start-listening">Start Listening</button>
-    <button id="stop-listening" disabled>Stop Listening</button>
-    <div class="footer">
-        <p>Explore the World of Language and Communication</p>
-        <p><a href="https://rohansoni0507.github.io/MorseyCode/" target="_blank">Visit our Website</a></p>
-    </div>
+    <script src="app.js"></script>
 </body>
 </html>

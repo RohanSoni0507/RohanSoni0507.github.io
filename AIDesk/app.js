@@ -1,7 +1,78 @@
+function openSlideInMenu() {
+    const slideInMenu = document.querySelector('.slide-in-menu');
+    slideInMenu.style.left = '0';
+}
+
+function closeSlideInMenu() {
+    const slideInMenu = document.querySelector('.slide-in-menu');
+    slideInMenu.style.left = '-300px';
+}
+
+const menuToggle = document.querySelector('.menu-toggle');
+const closeMenuButton = document.querySelector('#close-menu');
+
+menuToggle.addEventListener('click', openSlideInMenu);
+closeMenuButton.addEventListener('click', closeSlideInMenu);
+
+document.addEventListener('DOMContentLoaded', function () {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('change', function () {
+        document.body.classList.toggle('dark-mode', darkModeToggle.checked);
+    });
+});   
+
+const projectsData = [
+    {
+        name: "Library Management System",
+        image: "project1.jpg",
+        website: "https://rohansoni0507.github.io/BookWise/",
+    },
+    {
+        name: "Desktop Voice Assistant",
+        image: "project2.jpg",
+        website: "https://rohansoni0507.github.io/AIDesk/",
+    },
+    {
+        name: "Round Robin Web Scheduler",
+        image: "project3.jpg",
+        website: "https://rohansoni0507.github.io/RRSim/",
+    },
+    {
+        name: "Productivity Tracker",
+        image: "project4.jpg",
+        website: "https://rohansoni0507.github.io/ProductivityPro/",
+    },
+];
+
+function createProjectCards() {
+    const projectContainer = document.querySelector(".project-card-container");
+
+    projectsData.forEach((project) => {
+        const card = document.createElement("div");
+        card.classList.add("project-card");
+
+        const image = document.createElement("img");
+        image.src = project.image;
+        image.alt = project.name;
+
+        const projectName = document.createElement("h3");
+        projectName.textContent = project.name;
+
+        const projectLink = document.createElement("a");
+        projectLink.href = project.website;
+        projectLink.textContent = "Visit Project";
+
+        card.appendChild(image);
+        card.appendChild(projectName);
+        card.appendChild(projectLink);
+
+        projectContainer.appendChild(card);
+    });
+}
+createProjectCards();
 const chatbox = document.getElementById('chatbox');
 const startListeningButton = document.getElementById('start-listening');
 const stopListeningButton = document.getElementById('stop-listening');
-const darkModeToggle = document.getElementById('darkModeToggle');
 
 const recognition = new window.webkitSpeechRecognition();
 recognition.continuous = true;
@@ -118,17 +189,3 @@ function evaluateMathExpression(expression) {
         sendMessage('Invalid math expression. Please try again.');
     }
 }
-
-function toggleDarkMode() {
-    const body = document.body;
-
-    darkModeToggle.addEventListener('change', () => {
-        if (darkModeToggle.checked) {
-            body.classList.add('dark-mode');
-        } else {
-            body.classList.remove('dark-mode');
-        }
-    });
-}
-
-toggleDarkMode();

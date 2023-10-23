@@ -14,13 +14,6 @@ const closeMenuButton = document.querySelector('#close-menu');
 menuToggle.addEventListener('click', openSlideInMenu);
 closeMenuButton.addEventListener('click', closeSlideInMenu);
 
-document.addEventListener('DOMContentLoaded', function () {
-    const darkModeToggle = document.getElementById('darkModeToggle');
-    darkModeToggle.addEventListener('change', function () {
-        document.body.classList.toggle('dark-mode', darkModeToggle.checked);
-    });
-});   
-
 const projectsData = [
     {
         name: "Library Management System",
@@ -69,7 +62,18 @@ function createProjectCards() {
         projectContainer.appendChild(card);
     });
 }
-createProjectCards();
+
+document.addEventListener('DOMContentLoaded', function () {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('change', function () {
+        document.body.classList.toggle('dark-mode', darkModeToggle.checked);
+    });
+});   
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    createProjectCards();
+});
 
 const chatbox = document.getElementById('chatbox');
 const startListeningButton = document.getElementById('start-listening');

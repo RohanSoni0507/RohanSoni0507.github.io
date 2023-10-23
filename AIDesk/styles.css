@@ -148,7 +148,7 @@ body {
     height: 300px;
     margin: 20px auto;
     padding: 10px;
-    overflow-y: scroll;
+    overflow-y: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
 }

@@ -13,7 +13,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
+  height: 85px;
   background-color: rgb(18, 18, 62);
 }
 
@@ -28,7 +28,7 @@ nav ul li{
 }
 
 nav ul li a{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: none;
   color: white;
 }
@@ -46,7 +46,7 @@ main hr{
 }
 
 .left {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .firstSection {

@@ -35,7 +35,7 @@ nav ul li a{
 
 nav ul li a:hover{
   color: rgb(153, 153, 226);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 main hr{
@@ -53,7 +53,7 @@ main hr{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 130px 0;
+  margin: 30px 0;
 }
 
 .firstSection > div {
@@ -79,7 +79,7 @@ main hr{
 }
 
 .rightSection img {
-  width: 80%;
+  width: 100%;
 }
 
 .purple {
@@ -104,43 +104,44 @@ main hr{
 
 .secondSection h1{
   font-size: 1.9rem;
+  margin-bottom: 3em;
 }
 
 .secondSection .box{
   background: white;
   width: 95vw;
-  height: 2px;
-  margin: 56px 0;
+  height: 4px;
+  margin: 80px 0;
   display: flex;
 }
 
 .secondSection .vertical{
   height: 93px;
-  width: 1px;
+  width: 3px;
   background-color: white;
-  margin: 0 120px;
+  margin: 0 160px;
 }
 
 .image-top{
-  width: 23px;
+  width: 50px;
   position:relative;
-  top: -32px;
-  left: -9px;
+  top: -50px;
+  left: -20px;
 }
 
 .vertical-title{
   position: relative;
   top: 75px;
-  width: 150px;
-  font-size: 14px;
+  width: 170px;
+  font-size: 18px;
 }
 
 .vertical-desc{
   position: relative;
   top: 86px;
   color: gray;
-  width: 150px;
-  font-size: 9px;
+  width: 170px;
+  font-size: 14px;
 }
 
 .project-card-container {

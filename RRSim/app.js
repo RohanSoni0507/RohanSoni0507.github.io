@@ -1,5 +1,3 @@
-
-
 function openSlideInMenu() {
     const slideInMenu = document.querySelector('.slide-in-menu');
     slideInMenu.style.left = '0';
@@ -88,9 +86,6 @@ class Process {
         this.turnaroundTime = 0;
     }
 }
-
-
-
 
 function compareById(a, b) {
     return a.id - b.id;

@@ -144,6 +144,14 @@ main hr{
   font-size: 14px;
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .project-card-container {
   display: flex;
   flex-wrap: wrap;
@@ -161,11 +169,11 @@ main hr{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 0.2s, transform 0.2s;
-  margin-left: 20px;
+  left: 30px;
 }
 
 .project-card img {
-  width: 280px;
+  width: 100%;
   height: 195px;
 }
 
@@ -190,4 +198,52 @@ main hr{
 .project-card a:hover {
   background-color: #0056b3;
   transform: scale(1.05);
+}
+
+.developer-card {
+  display: flex;
+  margin-left: 200px;
+  align-items: center;
+  background-color: rgb(153, 153, 226);;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 390px;
+}
+
+.developer-image {
+  flex: 1;
+}
+
+.developer-image img {
+  height: 400px;
+
+  border-radius: 5px;
+}
+
+.developer-info {
+  text-align: center;
+  flex: 2;
+  padding: 20px;
+  align-items: center;
+}
+
+.developer-info h2 {
+  font-size: 25px;
+  margin: 0;
+  color: #f2f2f2;
+}
+
+.developer-info p {
+  font-size: 15px;
+  color: #f2f2f2;
+  margin: 10px 0;
+}
+
+.developer-info a {
+  text-decoration: none;
+  color: rgb(0, 0, 33);
+  margin-right: 10px;
+  font-size: 25px;
 }

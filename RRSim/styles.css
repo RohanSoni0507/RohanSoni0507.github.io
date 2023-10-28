@@ -20,15 +20,18 @@ body.dark-mode {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: orange;
-    margin-top: 1em;
-    margin-bottom: 2em;
+    color: #1e2167;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
-.heading.dark-mode {
-    color: yellow;
-    margin-top: 1em;
-    margin-bottom: 2em;
+.dark-mode .heading{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 .header {

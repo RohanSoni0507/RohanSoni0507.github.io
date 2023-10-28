@@ -15,10 +15,10 @@ body {
 }
 
 .indexcontainer {
-    margin-top: 5em;
-    margin-left: 0px;
-    color: rgba(255, 255, 255, 0.5);
     text-align: center;
+    margin-top: 8em;
+    color: rgba(255, 255, 255, 0.5);
+    
 }
 
 .container {

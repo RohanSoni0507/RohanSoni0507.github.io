@@ -24,11 +24,14 @@ body {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: orange;
+    color: #1e2167;
 }
 
-.heading.dark-mode {
-    color: yellow;
+.dark-mode .heading{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
 }
 
 .menu-toggle {
@@ -149,7 +152,17 @@ body {
     margin: 20px auto;
     padding: 10px;
     overflow-y: auto;
-    border: 1px solid #ccc;
+    border: 1px solid #1e2167;
+    border-radius: 5px;
+}
+
+.dark-mode #chatbox {
+    width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    overflow-y: auto;
+    border: 1px solid #99AAB5;
     border-radius: 5px;
 }
 

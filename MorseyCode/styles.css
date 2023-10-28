@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -23,7 +23,7 @@ body {
 
 .heading {
     text-align: center;
-    color: #ffa500;
+    color: #1e2167;
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
@@ -201,8 +201,8 @@ body.dark-mode {
     color: #ffffff;
 }
 
-.heading.dark-mode {
-    color: #ffd700;
+.dark-mode .heading{
+    color: orange;
 }
 
 .chat-message.dark-mode {

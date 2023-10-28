@@ -204,7 +204,7 @@ main hr{
   display: flex;
   margin-left: 200px;
   align-items: center;
-  background-color: rgb(153, 153, 226);;
+  background-color: rgb(153, 153, 226);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);

@@ -51,17 +51,16 @@ li button:hover {
 h1 {
     text-align: center;
     margin-top: 1em;
-    color: orange;
+    color: #1e2167;
     font-size: 24px;
 }
 
 h2 {
     color: black;
     text-align: center;
-    font-size: 24px; /* You can adjust the font size as needed */
+    font-size: 24px;
 }
 
-/* Input and button styles */
 input[type="text"] {
     width: 480px;
     padding: 10px;
@@ -88,13 +87,12 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Update button styles for tasks, todos, goals, and reminders */
 button#add-task-button,
 button#add-todo-button,
 button#add-reminder-button,
 button#add-goal-button {
     display: block;
-    margin: 0 auto; /* Center the buttons horizontally */
+    margin: 0 auto;
     width: 150px;
     padding: 10px;
     background-color: #007BFF;
@@ -106,8 +104,6 @@ button#add-goal-button {
     transition: background-color 0.3s;
 }
 
-
-/* Dark mode button styles */
 .darkbutton {
     position: absolute;
     top: 10px;
@@ -126,10 +122,16 @@ button#add-goal-button {
     transform: scale(1.2);
 }
 
-/* Dark mode styles */
 body.dark-mode {
     background-color: #36393f;
     color: #fff;
+}
+
+.dark-mode h1{
+    text-align: center;
+    margin-top: 1em;
+    color: #faa61a;
+    font-size: 24px;
 }
 
 .dark-mode h2 {
@@ -144,7 +146,7 @@ body.dark-mode {
 }
 
 .dark-mode .darkbutton{
-    color: #FFA500;
+    color: #303135;
 }
 
 .dark-mode input[type="text"]{
@@ -161,7 +163,6 @@ body.dark-mode {
     background-color: #677bc4;
 }
 
-/* Footer styles */
 .footer {
     text-align: center;
     margin-top: 20px;

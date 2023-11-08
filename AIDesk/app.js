@@ -129,6 +129,18 @@ function processCommand(command) {
         window.open("https://www.google.com/", '_blank');
     } else if (command.includes("open stack overflow")) {
         window.open("https://stackoverflow.com/", '_blank');
+    } else if (command.includes("play music")) {
+        window.open("https://www.youtube.com/watch?v=gR7iTCeZI0Y", '_blank');
+    } else if (command.includes("open facebook")) {
+        window.open("https://www.facebook.com/rohansoni0507?mibextid=nW3QTL", '_blank');
+    } else if (command.includes("open instagram")) {
+        window.open("https://www.instagram.com/rohansoni0507/?igshid=NGVhN2U2NjQ0Yg%3D%3D", '_blank');
+    } else if (command.includes("open twitter")) {
+        window.open("https://twitter.com/RohanSoni118254?t=IPXe6fEidR0cfmS4T5zZWw&s=09", '_blank');
+    } else if (command.includes("open linkedin")) {
+        window.open("https://www.linkedin.com/in/rohan-soni-963038224/", '_blank');
+    } else if (command.includes("open github")) {
+        window.open("https://github.com/RohanSoni0507", '_blank');
     } else if (command.includes("check weather")) {
         getWeather();
     } else if (command.includes("check news")) {

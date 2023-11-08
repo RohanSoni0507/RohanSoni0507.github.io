@@ -22,6 +22,18 @@ def main():
             webbrowser.open("https://www.google.com/")
         elif "open stack overflow" in command:
             webbrowser.open("https://stackoverflow.com/")
+        elif "play music" in command:
+            webbrowser.open("https://www.youtube.com/watch?v=gR7iTCeZI0Y")
+        elif "open facebook" in command:
+            webbrowser.open("https://www.facebook.com/rohansoni0507?mibextid=nW3QTL")
+        elif "open instagram" in command:
+            webbrowser.open("https://www.instagram.com/rohansoni0507/?igshid=NGVhN2U2NjQ0Yg%3D%3D")
+        elif "open twitter" in command:
+            webbrowser.open("https://twitter.com/RohanSoni118254?t=IPXe6fEidR0cfmS4T5zZWw&s=09")
+        elif "open linkedin" in command:
+            webbrowser.open("https://www.linkedin.com/in/rohan-soni-963038224/")
+        elif "open github" in command:
+            webbrowser.open("https://github.com/RohanSoni0507")           
         elif "check weather" in command:
             get_weather()
         elif "check news" in command:

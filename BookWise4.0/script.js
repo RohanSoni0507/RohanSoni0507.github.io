@@ -81,7 +81,13 @@ const subjects = [
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Design and Analysis of Algorithms', image: 'images/daa.jpg', books: [
+    { name: 'Design and Analysis of Algorithms (Theory)', image: 'images/daa1.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
+    { name: 'Internet of Things', image: 'images/iot.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
@@ -93,22 +99,29 @@ const subjects = [
             pdfLink: "books/.pdf"
         },
     ] },
+    { name: 'Social Engineering', image: 'images/se.jpg', books: [
+        {
+            name: "",
+            pdfLink: "books/.pdf"
+        },
+    ] },
     { name: 'Artificial Intelligence', image: 'images/ai.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Professional Elective-I', image: 'images/pe.jpg', books: [
+
+    { name: 'UHV-II: Universal Human Values – Understanding Harmony and Ethical Human Conduct', image: 'images/uhv.jpg', books: [
         {
             name: "",
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Social Engineering', image: 'images/se.jpg', books: [
+    { name: 'Design and Analysis of Algorithms (Lab)', image: 'images/daa2.jpg', books: [
         {
-            name: "",
-            pdfLink: "books/.pdf"
+            name: "List of Lab Experiments",
+            pdfLink: "books/list.pdf"
         },
     ] },
     { name: 'Critical and Creative Thinking Skills', image: 'images/ccts.jpg', books: [
@@ -117,14 +130,13 @@ const subjects = [
             pdfLink: "books/.pdf"
         },
     ] },
-    { name: 'Universal Human Values', image: 'images/uhv.jpg', books: [
+    { name: 'Time Table', image: 'images/tt.jpg', books: [
         {
-            name: "",
-            pdfLink: "books/.pdf"
+            name: "Time Table - 4th Semester",
+            pdfLink: "books/tt.pdf"
         },
     ] },
 ];
-
 function createSubjectCards() {
     const subjectCardsContainer = document.querySelector('.subject-cards');
 

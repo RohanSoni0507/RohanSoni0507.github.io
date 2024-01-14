@@ -20,6 +20,26 @@ const books = [
         pdfLink: "books/list.pdf"
     },
     {
+        name: "Probability and Queueing Theory : Unit 1 - Handwritten Notes",
+        pdfLink: "books/mathsunit1.pdf"
+    },
+    {
+        name: "Probability and Queueing Theory : Unit 2 - Handwritten Notes",
+        pdfLink: "books/mathsunit2.pdf"
+    },
+    {
+        name: "Probability and Queueing Theory : Unit 3 - Handwritten Notes",
+        pdfLink: "books/mathsunit3.pdf"
+    },
+    {
+        name: "Probability and Queueing Theory : Unit 4 - Handwritten Notes",
+        pdfLink: "books/mathsunit4.pdf"
+    },
+    {
+        name: "Probability and Queueing Theory : Unit 5 - Handwritten Notes",
+        pdfLink: "books/mathsunit5.pdf"
+    },
+    {
         name: "Time Table - 4th Semester",
         pdfLink: "books/tt.pdf"
     },
@@ -81,8 +101,24 @@ window.addEventListener('load', () => {
 const subjects = [
     { name: 'Probability and Queueing Theory', image: 'images/pqt.jpg', books: [
         {
-            name: "N/A",
-            pdfLink: "books/.pdf"
+            name: "Unit 1 : Handwritten Notes",
+            pdfLink: "books/mathsunit1.pdf"
+        },
+        {
+            name: "Unit 2 : Handwritten Notes",
+            pdfLink: "books/mathsunit2.pdf"
+        },
+        {
+            name: "Unit 3 : Handwritten Notes",
+            pdfLink: "books/mathsunit3.pdf"
+        },
+        {
+            name: "Unit 4 : Handwritten Notes",
+            pdfLink: "books/mathsunit4.pdf"
+        },
+        {
+            name: "Unit 5 : Handwritten Notes",
+            pdfLink: "books/mathsunit5.pdf"
         },
     ] },
     { name: 'Design and Analysis of Algorithms (Theory)', image: 'images/daa1.jpg', books: [

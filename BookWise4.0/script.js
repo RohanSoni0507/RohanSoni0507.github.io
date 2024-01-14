@@ -16,8 +16,12 @@ closeMenuButton.addEventListener('click', closeSlideInMenu);
 
 const books = [
     {
-        name: "",
-        pdfLink: ""
+        name: "Design and Analysis of Algorithms (Lab) : List of Lab Experiments",
+        pdfLink: "books/list.pdf"
+    },
+    {
+        name: "Time Table - 4th Semester",
+        pdfLink: "books/tt.pdf"
     },
 ];
 
@@ -77,44 +81,44 @@ window.addEventListener('load', () => {
 const subjects = [
     { name: 'Probability and Queueing Theory', image: 'images/pqt.jpg', books: [
         {
-            name: "",
+            name: "N/A",
             pdfLink: "books/.pdf"
         },
     ] },
     { name: 'Design and Analysis of Algorithms (Theory)', image: 'images/daa1.jpg', books: [
         {
-            name: "",
+            name: "N/A",
             pdfLink: "books/.pdf"
         },
     ] },
     { name: 'Internet of Things', image: 'images/iot.jpg', books: [
         {
-            name: "",
+            name: "N/A",
             pdfLink: "books/.pdf"
         },
     ] },
     { name: 'Database Management System', image: 'images/dms.jpg', books: [
         {
-            name: "",
+            name: "N/A",
             pdfLink: "books/.pdf"
         },
     ] },
     { name: 'Social Engineering', image: 'images/se.jpg', books: [
         {
-            name: "",
+            name: "N/A",
             pdfLink: "books/.pdf"
         },
     ] },
     { name: 'Artificial Intelligence', image: 'images/ai.jpg', books: [
         {
-            name: "",
+            name: "N/A",
             pdfLink: "books/.pdf"
         },
     ] },
 
     { name: 'UHV-II: Universal Human Values – Understanding Harmony and Ethical Human Conduct', image: 'images/uhv.jpg', books: [
         {
-            name: "",
+            name: "N/A",
             pdfLink: "books/.pdf"
         },
     ] },
@@ -126,7 +130,7 @@ const subjects = [
     ] },
     { name: 'Critical and Creative Thinking Skills', image: 'images/ccts.jpg', books: [
         {
-            name: "",
+            name: "N/A",
             pdfLink: "books/.pdf"
         },
     ] },

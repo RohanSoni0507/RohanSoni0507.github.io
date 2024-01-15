@@ -181,6 +181,10 @@ window.addEventListener('load', () => {
 const subjects = [
     { name: 'Probability and Queueing Theory', image: 'images/pqt.jpg', books: [
         {
+            name: "Youtube Playlist Recommendation",
+            pdfLink: "books/pqtr.pdf"
+        },
+        {
             name: "Unit 1 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/mathsunit12018.pdf"
         },
@@ -202,6 +206,10 @@ const subjects = [
         },
     ] },
     { name: 'Design and Analysis of Algorithms (Theory)', image: 'images/daa1.jpg', books: [
+        {
+            name: "Youtube Playlist Recommendation",
+            pdfLink: "books/daar.pdf"
+        },
         {
             name: "Unit 1 (Part-1) : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/daaunit112018.pdf"
@@ -229,17 +237,21 @@ const subjects = [
     ] },
     { name: 'Internet of Things', image: 'images/iot.jpg', books: [
         {
-            name: "N/A",
-            pdfLink: "books/.pdf"
+            name: "Youtube Playlist Recommendation",
+            pdfLink: "books/iotr.pdf"
         },
     ] },
     { name: 'Database Management System', image: 'images/dms.jpg', books: [
         {
-            name: "N/A",
-            pdfLink: "books/.pdf"
+            name: "Youtube Playlist Recommendation",
+            pdfLink: "books/dbmsr.pdf"
         },
     ] },
     { name: 'Social Engineering', image: 'images/se.jpg', books: [
+        {
+            name: "Youtube Video Recommendation",
+            pdfLink: "books/ser.pdf"
+        },
         {
             name: "Social Engineering Unit-1 (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/se12018.pdf"
@@ -267,15 +279,15 @@ const subjects = [
     ] },
     { name: 'Artificial Intelligence', image: 'images/ai.jpg', books: [
         {
-            name: "N/A",
-            pdfLink: "books/.pdf"
+            name: "Youtube Playlist Recommendation",
+            pdfLink: "books/air.pdf"
         },
     ] },
 
     { name: 'UHV-II: Universal Human Values – Understanding Harmony and Ethical Human Conduct', image: 'images/uhv.jpg', books: [
         {
-            name: "N/A",
-            pdfLink: "books/.pdf"
+            name: "Youtube Playlist Recommendation",
+            pdfLink: "books/uhvr.pdf"
         },
     ] },
     { name: 'Design and Analysis of Algorithms (Lab)', image: 'images/daa2.jpg', books: [
@@ -286,8 +298,8 @@ const subjects = [
     ] },
     { name: 'Critical and Creative Thinking Skills', image: 'images/ccts.jpg', books: [
         {
-            name: "N/A",
-            pdfLink: "books/.pdf"
+            name: "Youtube Video Recommendation",
+            pdfLink: "books/cctsr.pdf"
         },
     ] },
     { name: 'Time Table', image: 'images/tt.jpg', books: [

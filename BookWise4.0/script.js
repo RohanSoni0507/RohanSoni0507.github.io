@@ -20,28 +20,28 @@ const books = [
         pdfLink: "books/list.pdf"
     },
     {
-        name: "Probability and Queueing Theory : Unit 1 - Handwritten Notes",
+        name: "Time Table - 4th Semester",
+        pdfLink: "books/tt.pdf"
+    },
+    {
+        name: "Probability and Queueing Theory : Unit 1 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
         pdfLink: "books/mathsunit1.pdf"
     },
     {
-        name: "Probability and Queueing Theory : Unit 2 - Handwritten Notes",
+        name: "Probability and Queueing Theory : Unit 2 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
         pdfLink: "books/mathsunit2.pdf"
     },
     {
-        name: "Probability and Queueing Theory : Unit 3 - Handwritten Notes",
+        name: "Probability and Queueing Theory : Unit 3 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
         pdfLink: "books/mathsunit3.pdf"
     },
     {
-        name: "Probability and Queueing Theory : Unit 4 - Handwritten Notes",
+        name: "Probability and Queueing Theory : Unit 4 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
         pdfLink: "books/mathsunit4.pdf"
     },
     {
-        name: "Probability and Queueing Theory : Unit 5 - Handwritten Notes",
+        name: "Probability and Queueing Theory : Unit 5 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
         pdfLink: "books/mathsunit5.pdf"
-    },
-    {
-        name: "Time Table - 4th Semester",
-        pdfLink: "books/tt.pdf"
     },
 ];
 
@@ -101,23 +101,23 @@ window.addEventListener('load', () => {
 const subjects = [
     { name: 'Probability and Queueing Theory', image: 'images/pqt.jpg', books: [
         {
-            name: "Unit 1 : Handwritten Notes",
+            name: "Unit 1 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/mathsunit1.pdf"
         },
         {
-            name: "Unit 2 : Handwritten Notes",
+            name: "Unit 2 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/mathsunit2.pdf"
         },
         {
-            name: "Unit 3 : Handwritten Notes",
+            name: "Unit 3 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/mathsunit3.pdf"
         },
         {
-            name: "Unit 4 : Handwritten Notes",
+            name: "Unit 4 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/mathsunit4.pdf"
         },
         {
-            name: "Unit 5 : Handwritten Notes",
+            name: "Unit 5 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/mathsunit5.pdf"
         },
     ] },

@@ -24,6 +24,38 @@ const books = [
         pdfLink: "books/tt.pdf"
     },
     {
+        name: "Probability and Queueing Theory : Youtube Playlist Recommendation",
+        pdfLink: "books/pqtr.pdf"
+    },
+    {
+        name: "Design and Analysis of Algorithms : Youtube Playlist Recommendation",
+        pdfLink: "books/daar.pdf"
+    },
+    {
+        name: "Internet of Things : Youtube Playlist Recommendation",
+        pdfLink: "books/iotr.pdf"
+    },
+    {
+        name: "Database Management System : Youtube Playlist Recommendation",
+        pdfLink: "books/dbmsr.pdf"
+    },
+    {
+        name: "Social Engineering : Youtube Video Recommendation",
+        pdfLink: "books/ser.pdf"
+    },
+    {
+        name: "Artificial Intelligence : Youtube Playlist Recommendation",
+        pdfLink: "books/air.pdf"
+    },
+    {
+        name: "UHV-II: Universal Human Values – Understanding Harmony and Ethical Human Conduct : Youtube Playlist Recommendation",
+        pdfLink: "books/uhvr.pdf"
+    },
+    {
+        name: "Critical and Creative Thinking Skills : Youtube Video Recommendation",
+        pdfLink: "books/cctsr.pdf"
+    },
+    {
         name: "Probability and Queueing Theory : Unit 1 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
         pdfLink: "books/mathsunit12018.pdf"
     },

@@ -200,7 +200,7 @@ const semesters = [
     },
     {
         name: "4th Semester",
-        image: "images/5semester.jpg",
+        image: "images/4semester.jpg",
         websiteLink: "https://rohansoni0507.github.io/BookWise4.0/",
     },    
     {

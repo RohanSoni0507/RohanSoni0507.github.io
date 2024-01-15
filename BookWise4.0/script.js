@@ -25,23 +25,47 @@ const books = [
     },
     {
         name: "Probability and Queueing Theory : Unit 1 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-        pdfLink: "books/mathsunit1.pdf"
+        pdfLink: "books/mathsunit12018.pdf"
     },
     {
         name: "Probability and Queueing Theory : Unit 2 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-        pdfLink: "books/mathsunit2.pdf"
+        pdfLink: "books/mathsunit22018.pdf"
     },
     {
         name: "Probability and Queueing Theory : Unit 3 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-        pdfLink: "books/mathsunit3.pdf"
+        pdfLink: "books/mathsunit32018.pdf"
     },
     {
         name: "Probability and Queueing Theory : Unit 4 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-        pdfLink: "books/mathsunit4.pdf"
+        pdfLink: "books/mathsunit42018.pdf"
     },
     {
         name: "Probability and Queueing Theory : Unit 5 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-        pdfLink: "books/mathsunit5.pdf"
+        pdfLink: "books/mathsunit52018.pdf"
+    },
+    {
+        name: "Design and Analysis of Algorithms : Unit 1 (Part-1) - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/daaunit112018.pdf"
+    },
+    {
+        name: "Design and Analysis of Algorithms : Unit 1 (Part-2) - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/daaunit122018.pdf"
+    },
+    {
+        name: "Design and Analysis of Algorithms : Unit 2 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/daaunit22018.pdf"
+    },
+    {
+        name: "Design and Analysis of Algorithms : Unit 3 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/daaunit32018.pdf"
+    },
+    {
+        name: "Design and Analysis of Algorithms : Unit 4 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/daaunit42018.pdf"
+    },
+    {
+        name: "Design and Analysis of Algorithms : Unit 5 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/daaunit52018.pdf"
     },
 ];
 
@@ -102,29 +126,49 @@ const subjects = [
     { name: 'Probability and Queueing Theory', image: 'images/pqt.jpg', books: [
         {
             name: "Unit 1 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-            pdfLink: "books/mathsunit1.pdf"
+            pdfLink: "books/mathsunit12018.pdf"
         },
         {
             name: "Unit 2 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-            pdfLink: "books/mathsunit2.pdf"
+            pdfLink: "books/mathsunit22018.pdf"
         },
         {
             name: "Unit 3 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-            pdfLink: "books/mathsunit3.pdf"
+            pdfLink: "books/mathsunit32018.pdf"
         },
         {
             name: "Unit 4 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-            pdfLink: "books/mathsunit4.pdf"
+            pdfLink: "books/mathsunit42018.pdf"
         },
         {
             name: "Unit 5 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
-            pdfLink: "books/mathsunit5.pdf"
+            pdfLink: "books/mathsunit52018.pdf"
         },
     ] },
     { name: 'Design and Analysis of Algorithms (Theory)', image: 'images/daa1.jpg', books: [
         {
-            name: "N/A",
-            pdfLink: "books/.pdf"
+            name: "Design and Analysis of Algorithms : Unit 1 (Part-1) - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/daaunit112018.pdf"
+        },
+        {
+            name: "Design and Analysis of Algorithms : Unit 1 (Part-2) - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/daaunit122018.pdf"
+        },
+        {
+            name: "Design and Analysis of Algorithms : Unit 2 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/daaunit22018.pdf"
+        },
+        {
+            name: "Design and Analysis of Algorithms : Unit 3 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/daaunit32018.pdf"
+        },
+        {
+            name: "Design and Analysis of Algorithms : Unit 4 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/daaunit42018.pdf"
+        },
+        {
+            name: "Design and Analysis of Algorithms : Unit 5 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/daaunit52018.pdf"
         },
     ] },
     { name: 'Internet of Things', image: 'images/iot.jpg', books: [

@@ -67,6 +67,30 @@ const books = [
         name: "Design and Analysis of Algorithms : Unit 5 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
         pdfLink: "books/daaunit52018.pdf"
     },
+    {
+        name: "Social Engineering : Social Engineering Unit-1 (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/se12018.pdf"
+    },
+    {
+        name: "Social Engineering : SE unit 1-4 (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/se22018.pdf"
+    },
+    {
+        name: "Social Engineering : SE merged 1-20pm (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/se32018.pdf"
+    },
+    {
+        name: "Social Engineering : se mcq with answers (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/se42018.pdf"
+    },
+    {
+        name: "Social Engineering : 18PDH103T - Social Engineering - 3 SEM (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/se52018.pdf"
+    },
+    {
+        name: "Social Engineering : 18PDH103T - 3RD SEM (ACADEMIC REGULATIONS – 2018)",
+        pdfLink: "books/se62018.pdf"
+    },
 ];
 
 function listBooks(books) {
@@ -147,27 +171,27 @@ const subjects = [
     ] },
     { name: 'Design and Analysis of Algorithms (Theory)', image: 'images/daa1.jpg', books: [
         {
-            name: "Design and Analysis of Algorithms : Unit 1 (Part-1) - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            name: "Unit 1 (Part-1) : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/daaunit112018.pdf"
         },
         {
-            name: "Design and Analysis of Algorithms : Unit 1 (Part-2) - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            name: "Unit 1 (Part-2) : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/daaunit122018.pdf"
         },
         {
-            name: "Design and Analysis of Algorithms : Unit 2 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            name: "Unit 2 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/daaunit22018.pdf"
         },
         {
-            name: "Design and Analysis of Algorithms : Unit 3 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            name: "Unit 3 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/daaunit32018.pdf"
         },
         {
-            name: "Design and Analysis of Algorithms : Unit 4 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            name: "Unit 4 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/daaunit42018.pdf"
         },
         {
-            name: "Design and Analysis of Algorithms : Unit 5 - Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
+            name: "Unit 5 : Handwritten Notes (ACADEMIC REGULATIONS – 2018)",
             pdfLink: "books/daaunit52018.pdf"
         },
     ] },
@@ -185,8 +209,28 @@ const subjects = [
     ] },
     { name: 'Social Engineering', image: 'images/se.jpg', books: [
         {
-            name: "N/A",
-            pdfLink: "books/.pdf"
+            name: "Social Engineering Unit-1 (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/se12018.pdf"
+        },
+        {
+            name: "SE unit 1-4 (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/se22018.pdf"
+        },
+        {
+            name: "SE merged 1-20pm (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/se32018.pdf"
+        },
+        {
+            name: "se mcq with answers (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/se42018.pdf"
+        },
+        {
+            name: "18PDH103T - Social Engineering - 3 SEM (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/se52018.pdf"
+        },
+        {
+            name: "18PDH103T - 3RD SEM (ACADEMIC REGULATIONS – 2018)",
+            pdfLink: "books/se62018.pdf"
         },
     ] },
     { name: 'Artificial Intelligence', image: 'images/ai.jpg', books: [

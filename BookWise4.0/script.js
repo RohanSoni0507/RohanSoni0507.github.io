@@ -20,6 +20,26 @@ const books = [
         pdfLink: "books/list.pdf"
     },
     {
+        name: "All-Subjects-syllabus-2021",
+        pdfLink: "books/ass.pdf"
+    },
+    {
+        name: "B-Tech-2021-regulations",
+        pdfLink: "books/btr.pdf"
+    },
+    {
+        name: "CSE-year-wise-curriculum-2021",
+        pdfLink: "books/cywc.pdf"
+    },
+    {
+        name: "engineering-and-technology-hand-book-2023-2024",
+        pdfLink: "books/eath.pdf"
+    },
+    {
+        name: "Events-and-Holidays-2023-2024",
+        pdfLink: "books/eah.pdf"
+    },
+    {
         name: "Time Table - 4th Semester",
         pdfLink: "books/tt.pdf"
     },

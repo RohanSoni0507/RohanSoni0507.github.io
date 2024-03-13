@@ -1,15 +1,19 @@
 body {
+    background-image: url("image.webp");
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #83b3ca;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -22,7 +26,7 @@ h1 {
 label {
     display: block;
     margin-bottom: 8px;
-    color: #666;
+    color: #fff;
 }
 
 input[type="text"] {

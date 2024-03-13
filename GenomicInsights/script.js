@@ -3,22 +3,28 @@ function analyzeSequences() {
     var sequence2 = document.getElementById("sequence2").value;
     var output = document.getElementById("output");
 
-    
+    // Validate input
     if (!sequence1 || !sequence2) {
         output.innerHTML = "Please enter both DNA sequences.";
         return;
     }
 
+    // Calculate LCS
     var lcs = calculateLCS(sequence1, sequence2);
 
-    output.innerHTML = "<p>Length of LCS: " + lcs.length + "</p>";
-    output.innerHTML += "<p>Longest Common Subsequence: " + lcs.sequence + "</p>";
-    output.innerHTML += "<p>Identifying evolutionary relationships...</p>";
-    output.innerHTML += "<p>Phylogenetic tree constructed.</p>";
-    output.innerHTML += "<p>Detecting genetic mutations...</p>";
-    output.innerHTML += "<p>Genetic mutations detected.</p>";
-    output.innerHTML += "<p>Understanding functional significance...</p>";
-    output.innerHTML += "<p>Functional significance analyzed.</p>";
+    // Display output
+    if (lcs.length === 0) {
+        output.innerHTML = "<p>No common subsequence found between the sequences.</p>";
+    } else {
+        output.innerHTML = "<p>Length of LCS: " + lcs.length + "</p>";
+        output.innerHTML += "<p>Longest Common Subsequence: " + lcs.sequence + "</p>";
+        output.innerHTML += "<p>Identifying evolutionary relationships...</p>";
+        output.innerHTML += "<p>Phylogenetic tree constructed.</p>";
+        output.innerHTML += "<p>Detecting genetic mutations...</p>";
+        output.innerHTML += "<p>Genetic mutations detected.</p>";
+        output.innerHTML += "<p>Understanding functional significance...</p>";
+        output.innerHTML += "<p>Functional significance analyzed.</p>";
+    }
 }
 
 function calculateLCS(X, Y) {
